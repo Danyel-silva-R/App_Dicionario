@@ -1,5 +1,6 @@
+import 'package:dicionario_assurini/theme/theme.dart';
 import 'package:flutter/material.dart';
-import 'splash_page.dart';
+import 'package:dicionario_assurini/pagens/splash_page.dart';
 
 void main() {
   runApp(const DicionarioApp());
@@ -13,10 +14,9 @@ class DicionarioApp extends StatelessWidget {
     return MaterialApp(
       title: 'Dicionário',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.indigo,
-        scaffoldBackgroundColor: Colors.white,
-      ),
+      theme: AppTheme.lightTheme,
+      darkTheme: AppTheme.darkTheme,
+      themeMode: ThemeMode.system,
       home: const SplashPage(),
     );
   }

@@ -49,18 +49,7 @@ class CategoriasPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF3EADF),
-      appBar: AppBar(
-        backgroundColor: const Color(0xFF654321),
-        foregroundColor: Colors.white,
-        leading:
-            showBackButton
-                ? IconButton(
-                  icon: const Icon(Icons.arrow_back),
-                  onPressed: () => Navigator.pop(context),
-                )
-                : null,
-        automaticallyImplyLeading: showBackButton,
-      ),
+
       body: Padding(
         padding: const EdgeInsets.all(24),
         child: Column(
@@ -142,7 +131,7 @@ class CategoriasPage extends StatelessWidget {
               Text(
                 categoria['nome'],
                 style: const TextStyle(
-                  fontSize: 18,
+                  fontSize: 15,
                   fontWeight: FontWeight.bold,
                   color: Color(0xFF424242),
                 ),
@@ -151,7 +140,7 @@ class CategoriasPage extends StatelessWidget {
               const SizedBox(height: 4),
               Text(
                 '${categoria['palavras']} palavras',
-                style: const TextStyle(fontSize: 14, color: Color(0xFF9E9E9E)),
+                style: const TextStyle(fontSize: 11, color: Color(0xFF9E9E9E)),
               ),
             ],
           ),

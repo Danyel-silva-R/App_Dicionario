@@ -9,18 +9,6 @@ class ConfiguracoesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF3E9E1),
-      appBar: AppBar(
-        backgroundColor: const Color(0xFF654321),
-        foregroundColor: Colors.white,
-        leading:
-            showBackButton
-                ? IconButton(
-                  icon: const Icon(Icons.arrow_back),
-                  onPressed: () => Navigator.pop(context),
-                )
-                : null,
-        automaticallyImplyLeading: showBackButton,
-      ),
       body: Padding(
         padding: const EdgeInsets.all(24),
         child: Column(

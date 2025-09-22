@@ -1,6 +1,7 @@
 import 'dart:async';
+import 'package:dicionario_assurini/theme/theme.dart';
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import 'app_page.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
@@ -16,7 +17,7 @@ class _SplashPageState extends State<SplashPage> {
     Timer(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (_) => const HomePage()),
+        MaterialPageRoute(builder: (_) => const AppPage()),
       );
     });
   }
@@ -24,7 +25,7 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF654321),
+      backgroundColor: AppColors.primary,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -34,8 +35,8 @@ class _SplashPageState extends State<SplashPage> {
               'Dicionário',
               style: TextStyle(
                 fontSize: 42,
-                fontWeight: FontWeight.w300,
-                color: Color(0xFFE8B17A),
+                fontWeight: FontWeight.bold,
+                color: AppColors.secondary,
                 letterSpacing: 2,
               ),
             ),
@@ -43,8 +44,8 @@ class _SplashPageState extends State<SplashPage> {
               'Língua materna',
               style: TextStyle(
                 fontSize: 28,
-                fontWeight: FontWeight.w300,
-                color: Color(0xFFE8B17A),
+                fontWeight: FontWeight.bold,
+                color: AppColors.secondary,
                 letterSpacing: 1,
               ),
             ),
@@ -67,26 +68,11 @@ class _SplashPageState extends State<SplashPage> {
               ),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(90),
-                child: Image.network(
-                  'https://lh3.googleusercontent.com/aida-public/AB6AXuA3rD1RXiWEAon2D3DrpUsaEMYVWUivRE5rwgfFv2HZc2o_aOW-ZSzcv4rY5-Qoi_CXuraR8FzWSM8NMRHJXKwO3hcfaXvhlSGW0gXEs47m_sYVXZ3Pa5WyG-V21Ax_8klgf_qd61GwipnPN_Hqkf9rpX6Jp06HS7BQEcpsIxYb_jdvwQ2wMf7tYiGwvqZL53-NqQEfcSNp1WP1upK5mst5SiEJfcfLAQzqw3kyyekfrIlu691EcBq8wVONzG6T0YwBKxhfJwe__zpJ',
+                child: Image.asset(
+                  'assets/images/logo_splash.png',
                   width: 180,
                   height: 180,
                   fit: BoxFit.cover,
-                  errorBuilder: (context, error, stackTrace) {
-                    return Container(
-                      width: 180,
-                      height: 180,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(90),
-                        color: const Color(0xFFE8B17A),
-                      ),
-                      child: const Icon(
-                        Icons.face,
-                        size: 80,
-                        color: Colors.white,
-                      ),
-                    );
-                  },
                 ),
               ),
             ),
