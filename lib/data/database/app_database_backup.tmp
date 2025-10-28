@@ -1,0 +1,165 @@
+import 'package:sqflite/sqflite.dart';
+import 'package:path/path.dart' as p;
+import 'package:flutter/services.dart' show rootBundle;
+import 'sql_importer.dart';
+
+class AppDatabase {
+  AppDatabase._();
+  static final AppDatabase instance = AppDatabase._();
+
+  Database? _db;
+
+  Future<Database> get database async {
+    if (_db != null) return _db!;
+    _db = await _open();
+    return _db!;
+  }
+
+  Future<Database> _open() async {
+    final dbPath = await getDatabasesPath();
+    final path = p.join(dbPath, 'dicionario_assurini.db');
+
+    return openDatabase(
+      path,
+      version: 2,
+      onConfigure: (db) async {
+        // Habilita integridade referencial
+        await db.execute('PRAGMA foreign_keys = ON');
+      },
+      onCreate: (db, version) async {
+        await db.execute('''
+          CREATE TABLE words (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            termo TEXT UNIQUE NOT NULL,
+            categoria TEXT NOT NULL,
+            definicao TEXT,
+            favorito INTEGER NOT NULL DEFAULT 0
+          )
+        ''');
+
+        // Seed inicial simples para desenvolvimento
+        final batch = db.batch();
+        void add(String termo, String categoria) {
+          batch.insert(
+            'words',
+            {
+              'termo': termo,
+              'categoria': categoria,
+              'definicao': 'Defini��o de $termo (exemplo).',
+              'favorito': 0,
+            },
+            conflictAlgorithm: ConflictAlgorithm.ignore,
+          );
+        }
+
+        // Natureza
+        for (final t in ['�rvore', 'Rio', 'Floresta', 'P�ssaro', 'Folha']) {
+          add(t, 'Natureza');
+        }
+        // Animais
+        for (final t in ['On�a', 'Macaco', 'Peixe', 'Cobra', 'Borboleta']) {
+          add(t, 'Animais');
+        }
+        // Alimenta��o (evita duplicar 'Peixe', que j� est� em Animais)
+        for (final t in ['Mandioca', 'Milho', 'Banana', 'A�a�', 'Farinha']) {
+          add(t, 'Alimenta��o');
+        }
+        // Corpo humano
+        for (final t in ['Cabe�a', 'M�o', 'P�', 'Olho', 'Boca']) {
+          add(t, 'Corpo humano');
+        }
+        // Vida cotidiana
+        for (final t in ['Casa', 'Fogo', '�gua', 'Roupa', 'Comida']) {
+          add(t, 'Vida cotidiana');
+        }
+        // Fam�lia
+        for (final t in ['Pai', 'M�e', 'Filho', 'Filha', 'Av�']) {
+          add(t, 'Fam�lia');
+        }
+
+        await batch.commit(noResult: true);
+
+        // Cria o esquema solicitado: Classificacao, PalavraTupi, Exemplo
+        await _createRequestedSchema(db);
+        await _tryImportInitialSql(db);
+      },
+      onUpgrade: (db, oldVersion, newVersion) async {
+        if (oldVersion < 2) {
+          await _createRequestedSchema(db);
+        }
+        await _tryImportInitialSql(db);
+      },
+    );
+  }
+
+  Future<void> _createRequestedSchema(Database db) async {
+    // Tabela de classifica��o
+    await db.execute('''
+      CREATE TABLE IF NOT EXISTS Classificacao (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        nome TEXT NOT NULL UNIQUE
+      )
+    ''');
+
+    // Tabela principal de palavras em Tupi
+    await db.execute('''
+      CREATE TABLE IF NOT EXISTS PalavraTupi (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        tupi TEXT NOT NULL,
+        pronuncia TEXT,
+        portugues TEXT NOT NULL,
+        audio_path TEXT,
+        imagem_path TEXT,
+        classificacao_id INTEGER NOT NULL,
+        FOREIGN KEY (classificacao_id) REFERENCES Classificacao(id)
+          ON DELETE RESTRICT ON UPDATE CASCADE
+      )
+    ''');
+
+    // Exemplos/frases
+    await db.execute('''
+      CREATE TABLE IF NOT EXISTS Exemplo (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        palavra_tupi_id INTEGER NOT NULL,
+        frase_tupi TEXT NOT NULL,
+        traducao TEXT NOT NULL,
+        FOREIGN KEY (palavra_tupi_id) REFERENCES PalavraTupi(id)
+          ON DELETE CASCADE ON UPDATE CASCADE
+      )
+    ''');
+
+    // Seed de classifica��es: garante 'sem_classificacao' e categorias b�sicas
+    final existing = await db.query('Classificacao', columns: ['id', 'nome']);
+    final existingNames = existing
+        .map((e) => (e['nome'] as String?)?.toLowerCase() ?? '')
+        .toSet();
+    if (existing.isEmpty) {
+      await db.insert('Classificacao', {'id': 1, 'nome': 'sem_classificacao'});
+    } else if (!existingNames.contains('sem_classificacao')) {
+      await db.insert('Classificacao', {'nome': 'sem_classificacao'});
+      existingNames.add('sem_classificacao');
+    }
+    for (final nome in const ['natureza', 'comida', 'objeto', 'pessoa']) {
+      if (!existingNames.contains(nome)) {
+        await db.insert('Classificacao', {'nome': nome});
+      }
+    }
+  }
+
+  Future<void> _tryImportInitialSql(Database db) async {
+    try {
+      // Apenas importa se ainda n�o h� dados em PalavraTupi
+      final count = Sqflite.firstIntValue(
+        await db.rawQuery('SELECT COUNT(1) FROM PalavraTupi'),
+      );
+      if ((count ?? 0) > 0) return;
+
+      final sql = await rootBundle.loadString('assets/sql/initial_data.sql');
+      await executeSqlScript(db, sql);
+    } catch (_) {
+      // Se o asset n�o existir ou falhar, apenas ignora
+    }
+  }
+}
+
+

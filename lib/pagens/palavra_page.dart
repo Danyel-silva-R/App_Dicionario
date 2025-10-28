@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:dicionario_assurini/data/repositories/word_repository.dart';
 
 class PalavraPage extends StatefulWidget {
   final String palavra;
@@ -11,6 +12,22 @@ class PalavraPage extends StatefulWidget {
 
 class _PalavraPageState extends State<PalavraPage> {
   bool isFavorite = false;
+  final _repo = WordRepository();
+
+  @override
+  void initState() {
+    super.initState();
+    _loadFavorite();
+  }
+
+  Future<void> _loadFavorite() async {
+    try {
+      final fav = await _repo.isFavorite(widget.palavra);
+      if (mounted) setState(() => isFavorite = fav);
+    } catch (_) {
+      // silenciosamente ignora para não quebrar a UI
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -25,10 +42,10 @@ class _PalavraPageState extends State<PalavraPage> {
               isFavorite ? Icons.favorite : Icons.favorite_border,
               color: isFavorite ? Colors.red : Colors.white,
             ),
-            onPressed: () {
-              setState(() {
-                isFavorite = !isFavorite;
-              });
+            onPressed: () async {
+              await _repo.toggleFavorite(widget.palavra);
+              await _loadFavorite();
+              if (!mounted) return;
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
                   content: Text(

@@ -1,52 +1,37 @@
 import 'package:flutter/material.dart';
 import 'list_palavra_page.dart';
+import 'package:dicionario_assurini/data/repositories/tupi_repository.dart';
 
 class CategoriasPage extends StatelessWidget {
   const CategoriasPage({super.key, this.showBackButton = true});
 
   final bool showBackButton;
 
-  final List<Map<String, dynamic>> categorias = const [
-    {
-      'nome': 'Natureza',
-      'palavras': 32,
-      'icon': Icons.eco,
-      'color': Color(0xFF4CAF50),
-    },
-    {
-      'nome': 'Animais',
-      'palavras': 27,
-      'icon': Icons.pets,
-      'color': Color(0xFFFF9800),
-    },
-    {
-      'nome': 'Alimentação',
-      'palavras': 16,
-      'icon': Icons.restaurant,
-      'color': Color(0xFF2196F3),
-    },
-    {
-      'nome': 'Corpo humano',
-      'palavras': 18,
-      'icon': Icons.accessibility,
-      'color': Color(0xFFFF5722),
-    },
-    {
-      'nome': 'Vida cotidiana',
-      'palavras': 23,
-      'icon': Icons.home,
-      'color': Color(0xFF8BC34A),
-    },
-    {
-      'nome': 'Família',
-      'palavras': 23,
-      'icon': Icons.family_restroom,
-      'color': Color(0xFFE91E63),
-    },
-  ];
+  String? _iconFor(String nome) {
+    final key = nome.toLowerCase();
+    if (key.contains('natureza')) return 'assets/images/folha.png';
+    if (key.contains('animal')) return 'assets/images/pata.png';
+    if (key.contains('alimenta') || key.contains('comida')) {
+      return 'assets/images/comida.png';
+    }
+    if (key.contains('corpo')) return 'assets/images/m�o.png';
+    if (key.contains('vida')) return 'assets/images/oca2.png';
+    if (key.contains('fam')) return 'assets/images/pessoas.png';
+    if (key.contains('cultura')) return 'assets/images/fogo.png';
+    if (key.contains('express')) return 'assets/images/convesas.png';
+    if (key.contains('objeto')) return 'assets/images/vaso.png';
+    if (key.contains('pessoa')) return 'assets/images/pessoas.png';
+    return null;
+  }
+
+  String _displayName(String nome) {
+    if (nome.isEmpty) return nome;
+    return nome[0].toUpperCase() + nome.substring(1);
+  }
 
   @override
   Widget build(BuildContext context) {
+    final repo = TupiRepository();
     return Scaffold(
       backgroundColor: const Color(0xFFF3EADF),
 
@@ -65,17 +50,42 @@ class CategoriasPage extends StatelessWidget {
             ),
             const SizedBox(height: 24),
             Expanded(
-              child: GridView.builder(
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2,
-                  crossAxisSpacing: 16,
-                  mainAxisSpacing: 16,
-                  childAspectRatio: 1.0,
-                ),
-                itemCount: categorias.length,
-                itemBuilder: (context, index) {
-                  final categoria = categorias[index];
-                  return _buildCategoryCard(context, categoria);
+              child: FutureBuilder<List<Map<String, dynamic>>>(
+                future: repo.listClassificacoesWithCount(),
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return const Center(child: CircularProgressIndicator());
+                  }
+                  if (snapshot.hasError) {
+                    return Center(
+                      child: Text('Erro ao carregar categorias: ${snapshot.error}',
+                          style: const TextStyle(color: Colors.red)),
+                    );
+                  }
+                  final categorias = snapshot.data ?? [];
+                  if (categorias.isEmpty) {
+                    return const Center(child: Text('Nenhuma categoria encontrada'));
+                  }
+                  return GridView.builder(
+                    gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 2,
+                      crossAxisSpacing: 16,
+                      mainAxisSpacing: 16,
+                      childAspectRatio: 1.0,
+                    ),
+                    itemCount: categorias.length,
+                    itemBuilder: (context, index) {
+                      final c = categorias[index];
+                      final iconPath = _iconFor('${c['nome']}');
+                      return _buildCategoryCard(
+                        context,
+                        id: c['id'] as int,
+                        nome: _displayName('${c['nome']}'),
+                        total: (c['total'] as int?) ?? 0,
+                        iconPath: iconPath,
+                      );
+                    },
+                  );
                 },
               ),
             ),
@@ -86,21 +96,26 @@ class CategoriasPage extends StatelessWidget {
   }
 
   Widget _buildCategoryCard(
-    BuildContext context,
-    Map<String, dynamic> categoria,
-  ) {
+    BuildContext context, {
+    required int id,
+    required String nome,
+    required int total,
+    String? iconPath,
+  }) {
     return InkWell(
-      onTap:
-          () => Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (_) => ListPalavraPage(categoria: categoria['nome']),
-            ),
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (_) => ListPalavraPage(
+            classificacaoId: id,
+            classificacaoNome: nome,
           ),
+        ),
+      ),
       child: Container(
         decoration: BoxDecoration(
           color: Colors.white,
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.circular(16),
           boxShadow: [
             BoxShadow(
               color: Colors.black.withOpacity(0.1),
@@ -114,33 +129,56 @@ class CategoriasPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(
-                width: 48,
-                height: 48,
-                decoration: BoxDecoration(
-                  color: categoria['color'].withOpacity(0.1),
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                child: Icon(
-                  categoria['icon'],
-                  size: 32,
-                  color: categoria['color'],
+              ClipRRect(
+                borderRadius: BorderRadius.circular(12),
+                child: SizedBox(
+                  width: 64,
+                  height: 64,
+                  child: iconPath == null
+                      ? const ColoredBox(
+                          color: Color(0xFFF5F5F5),
+                          child: Center(
+                            child: Icon(
+                              Icons.category,
+                              color: Color(0xFFBDBDBD),
+                            ),
+                          ),
+                        )
+                      : Image.asset(
+                          iconPath,
+                          fit: BoxFit.contain,
+                          errorBuilder: (context, error, stackTrace) {
+                            return const ColoredBox(
+                              color: Color(0xFFF5F5F5),
+                              child: Center(
+                                child: Icon(
+                                  Icons.photo,
+                                  color: Color(0xFFBDBDBD),
+                                ),
+                              ),
+                            );
+                          },
+                        ),
                 ),
               ),
               const SizedBox(height: 12),
               Text(
-                categoria['nome'],
+                nome,
                 style: const TextStyle(
-                  fontSize: 15,
-                  fontWeight: FontWeight.bold,
+                  fontSize: 16,
+                  fontWeight: FontWeight.w700,
                   color: Color(0xFF424242),
                 ),
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 4),
               Text(
-                '${categoria['palavras']} palavras',
-                style: const TextStyle(fontSize: 11, color: Color(0xFF9E9E9E)),
+                '$total palavras',
+                style: const TextStyle(
+                  fontSize: 12,
+                  color: Color(0xFF9E9E9E),
+                  fontWeight: FontWeight.w500,
+                ),
               ),
             ],
           ),

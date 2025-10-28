@@ -9,6 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  sqflite_common_ffi: ^2.3.3
 
 dev_dependencies:
   flutter_test:
@@ -22,3 +25,4 @@ flutter:
     - assets/images/
     - assets/icons/
     - assets/fonts/
+    - assets/sql/

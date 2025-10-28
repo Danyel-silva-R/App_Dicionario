@@ -1,8 +1,16 @@
 import 'package:dicionario_assurini/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:dicionario_assurini/pagens/splash_page.dart';
+import 'dart:io' show Platform;
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
+    // Habilita SQLite via FFI para desktop
+    sqfliteFfiInit();
+    databaseFactory = databaseFactoryFfi;
+  }
   runApp(const DicionarioApp());
 }
 
