@@ -14,7 +14,7 @@ class ListPalavraPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final repo = TupiRepository();
-    final future = repo.getTupiByClassificacao(classificacaoId);
+    final future = repo.getPalavrasPorClassificacao(classificacaoId);
 
     return Scaffold(
       backgroundColor: const Color(0xFFF3E9E1),
@@ -28,7 +28,7 @@ class ListPalavraPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            FutureBuilder<List<String>>(
+            FutureBuilder<List<Map<String, String>>>(
               future: future,
               builder: (context, snapshot) {
                 final count = snapshot.data?.length;
@@ -46,7 +46,7 @@ class ListPalavraPage extends StatelessWidget {
               },
             ),
             Expanded(
-              child: FutureBuilder<List<String>>(
+              child: FutureBuilder<List<Map<String, String>>>(
                 future: future,
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.waiting) {
@@ -69,13 +69,15 @@ class ListPalavraPage extends StatelessWidget {
                   return ListView.builder(
                     itemCount: palavras.length,
                     itemBuilder: (context, index) {
+                      final tupi = palavras[index]['tupi'] ?? '';
+                      final portugues = palavras[index]['portugues'] ?? '';
                       return Container(
                         margin: const EdgeInsets.only(bottom: 12),
                         child: InkWell(
                           onTap: () => Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (_) => PalavraPage(palavra: palavras[index]),
+                              builder: (_) => PalavraPage(palavra: tupi),
                             ),
                           ),
                           child: Container(
@@ -109,7 +111,7 @@ class ListPalavraPage extends StatelessWidget {
                                 const SizedBox(width: 16),
                                 Expanded(
                                   child: Text(
-                                    palavras[index],
+                                    tupi,
                                     style: const TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.w500,
@@ -117,6 +119,20 @@ class ListPalavraPage extends StatelessWidget {
                                     ),
                                   ),
                                 ),
+                                if (portugues.isNotEmpty) ...[
+                                  const SizedBox(width: 8),
+                                  Flexible(
+                                    child: Text(
+                                      portugues,
+                                      textAlign: TextAlign.right,
+                                      style: const TextStyle(
+                                        fontSize: 12,
+                                        color: Color(0xFF757575),
+                                      ),
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                ],
                                 const Icon(
                                   Icons.arrow_forward_ios,
                                   color: Color(0xFF9E9E9E),
