@@ -1,6 +1,6 @@
+import 'package:dicionario_assurini/data/repositories/palavras_repository.dart';
 import 'package:flutter/material.dart';
 import 'palavra_page.dart';
-import 'package:dicionario_assurini/data/repositories/word_repository.dart';
 
 class FavoritosPage extends StatelessWidget {
   const FavoritosPage({super.key, this.showBackButton = true});
@@ -28,8 +28,8 @@ class FavoritosPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final repo = WordRepository();
-    return Scaffold(
+    final repo = PalavrasRepository();
+    return Scaffold( /*
       backgroundColor: const Color(0xFFF3E9E1),
       body: FutureBuilder<List<String>>(
         future: repo.getFavorites(),
@@ -104,6 +104,6 @@ class FavoritosPage extends StatelessWidget {
           );
         },
       ),
-    );
+    */);
   }
 }

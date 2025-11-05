@@ -1,6 +1,6 @@
+import 'package:dicionario_assurini/data/repositories/palavras_repository.dart';
 import 'package:flutter/material.dart';
 import 'palavra_page.dart';
-import 'package:dicionario_assurini/data/repositories/tupi_repository.dart';
 
 class BuscarPage extends StatefulWidget {
   const BuscarPage({super.key, this.showBackButton = true});
@@ -14,7 +14,7 @@ class BuscarPage extends StatefulWidget {
 class _BuscarPageState extends State<BuscarPage> {
   final TextEditingController _controller = TextEditingController();
   String _busca = '';
-  final _repo = TupiRepository();
+  final _repo = PalavrasRepository();
 
   @override
   Widget build(BuildContext context) {
@@ -83,7 +83,7 @@ class _BuscarPageState extends State<BuscarPage> {
                           ],
                         ),
                       )
-                  : FutureBuilder<List<Map<String, String>>>(
+                  : FutureBuilder<List<Map<String, dynamic>>>(
                       future: _repo.searchPalavras(_busca),
                       builder: (context, snapshot) {
                         if (snapshot.connectionState == ConnectionState.waiting) {
@@ -111,7 +111,9 @@ class _BuscarPageState extends State<BuscarPage> {
                                   context,
                                   MaterialPageRoute(
                                     builder: (_) => PalavraPage(
-                                      palavra: resultados[index]['tupi'] ?? '',
+                                      id: resultados[index]['id'] ?? 0,
+                                      portugues: resultados[index]['portugues'] ?? '',
+                                      assurini: resultados[index]['assurini'] ?? '',
                                     ),
                                   ),
                                 ),

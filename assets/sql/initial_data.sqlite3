@@ -1,0 +1,60 @@
+INSERT INTO Classificacao (nome)
+VALUES
+  ('Alimentação'),
+  ('Animais'),
+  ('Corpo Humano'),
+  ('Família'),
+  ('Natureza'),
+  ('Vida Cotidiana'),
+  ('Outros');
+
+
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('A', 'Pref. pess EU ', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES
+  (1, 'AHÁ POTÁ ', 'EU VOU '),
+  (1, 'AHÁSOKWÉSOKWÉN ', 'EU VOU MUITAS VEZES '),
+  (1, 'AHÉMSOKWÉSOKWÉM ', 'EU SAIO MUITAS VEZES '),
+  (1, 'AKWAHÁM IKÁWA ', 'EU SEI QUEBRAR '),
+  (1, 'APO´ ÓM WE´ ÓMA ', 'EU ESTOU EM PÉ '),
+  (1, 'AAPÝNG WETOÍNA ', 'EU ESTOU SENTADO '),
+  (1, 'A´ÁM WETÓTA ', 'EU VIM DEITAR '),
+  (1, 'ASÓM WE´ÁPA ', 'EU ESTOU DEITADO '),
+  (1, 'AJ A´ ÓM WEPO´ ÓMA ', 'EU ESTOU EM PÉ '),
+  (1, 'MO´ÝRA WESEOPÉ IAPÓRAMO APYHÝNG TA PÉN OHÍ ', 'SE VOCÊS FIZEREM COLAR PARA MIM EU PEGO  DE VOCÊS '),
+  (1, 'AHÁ POTÁ WEKARÓ ', 'EU VOU PARA COMER ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('A - ', 'Pref. pess ELE/ELA/ELES/ELAS', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES
+  (2, 'AHÁAHÁRAMÉ ', 'ELES FORAM TODOS AGORINHA'),
+  (2, 'AMONGATYRÓ POTÁ IAPÉNA AKÁ', 'EU VOU CONSERTA-LO PARA ELE FICAR RETO ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('- A ', 'SUF.CAS ´ARGUMENTATIVO ', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES
+  (3, 'APOTÁN NÉ ROHÁWA ', 'EU QUERO TU A VINDA '),
+  (3, 'APOTÁN NÉ ROAWÓMA ', 'EU QUERIA QUE VOCÊ VIESSE '),
+  (3, 'IKATOETÉ HESAKÁWA ', 'É BOM VÊ-LO '),
+  (3, 'SÉ KYWÝRA RA´ÝRA  O´Ó MÁSA', 'A COBRA MORDEU O FILHO DO MEU IRMÃO ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('- A', 'SUF.MOD ´GERÚNDIO', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES
+  (4, 'AJ HEKÁJ WE OPÁKA ', 'ELE AINDA ESTA ACORDADO '),
+  (4, 'ÓRAMO MENSÁRA OSE´ÉNGA', 'PODERIA VIR A ESPOSA PARA FALAR'),
+  (4, 'AJ ITÓWI O´ÁPA ', 'ELE ESTA DEITADO ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('- AATÝ ', 'ninho´', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES
+  (5, 'HAATÝ ', 'NINHO '),
+  (5, 'WYRÁ RAATÝA ', 'NINHO DE PASSARINHO '),
+  (5, 'HAATÝ O´ÁN ', 'O NINHO DELE CAIU ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('- aháp ', ' ´atravessar´ ', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES
+  (6, 'O´ÝA AHÁM AHÁ ', 'ELE ATRAVESSOU O RIO '),
+  (6, 'O´ÝA AHÁM AHÁ IPESÓ YHÁRA PYPÉ ', 'ELE ATRAVESSOU O RIO REMANDO DENTRO DA CANOA');

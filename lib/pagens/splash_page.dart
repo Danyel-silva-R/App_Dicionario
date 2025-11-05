@@ -1,7 +1,17 @@
 import 'dart:async';
-import 'package:dicionario_assurini/theme/theme.dart';
+import 'package:dicionario_assurini/data/database/app_database.dart';
 import 'package:flutter/material.dart';
-import 'app_page.dart';
+import 'package:dicionario_assurini/theme/theme.dart';
+import 'package:dicionario_assurini/pagens/app_page.dart';
+import 'package:path/path.dart' as p;
+import 'package:sqflite/sqflite.dart';
+
+Future<void> resetDatabase() async {
+  final dbPath = await getDatabasesPath();
+  final fullPath = p.join(dbPath, 'dicionario_assurini.db');
+  await deleteDatabase(fullPath);
+  print('🧹 Banco deletado: $fullPath');
+}
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
@@ -11,15 +21,37 @@ class SplashPage extends StatefulWidget {
 }
 
 class _SplashPageState extends State<SplashPage> {
+  bool _isLoading = true;
+
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 3), () {
+    _initializeApp();
+  }
+
+  Future<void> _initializeApp() async {
+    await resetDatabase();
+    try {
+      print('Inicializando banco...');
+      final db = await AppDatabase.instance.database;
+
+      // Teste simples: listar tabelas
+      final tables = await db.rawQuery('SELECT name FROM sqlite_master WHERE type="table"');
+      print('Tabelas encontradas: $tables');
+
+      // Pequeno delay pra manter o splash visível
+      await Future.delayed(const Duration(seconds: 1));
+    } catch (e, st) {
+      print('Erro ao inicializar banco: $e\n$st');
+    }
+
+    if (mounted) {
+      setState(() => _isLoading = false);
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (_) => const AppPage()),
       );
-    });
+    }
   }
 
   @override
@@ -30,7 +62,6 @@ class _SplashPageState extends State<SplashPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Title
             const Text(
               'Dicionário',
               style: TextStyle(
@@ -49,10 +80,7 @@ class _SplashPageState extends State<SplashPage> {
                 letterSpacing: 1,
               ),
             ),
-
             const SizedBox(height: 40),
-
-            // Character illustration
             Container(
               width: 180,
               height: 180,
@@ -76,10 +104,7 @@ class _SplashPageState extends State<SplashPage> {
                 ),
               ),
             ),
-
             const SizedBox(height: 40),
-
-            // Subtitle
             const Text(
               'Asurini do',
               style: TextStyle(
@@ -98,6 +123,10 @@ class _SplashPageState extends State<SplashPage> {
                 letterSpacing: 1,
               ),
             ),
+            if (_isLoading) ...[
+              const SizedBox(height: 40),
+              const CircularProgressIndicator(color: Colors.white),
+            ]
           ],
         ),
       ),

@@ -1,6 +1,6 @@
+import 'package:dicionario_assurini/data/repositories/palavras_repository.dart';
 import 'package:flutter/material.dart';
 import 'palavra_page.dart';
-import 'package:dicionario_assurini/data/repositories/tupi_repository.dart';
 
 class ListPalavraPage extends StatelessWidget {
   final int classificacaoId;
@@ -13,8 +13,8 @@ class ListPalavraPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final repo = TupiRepository();
-    final future = repo.getTupiByClassificacao(classificacaoId);
+    final repo = PalavrasRepository();
+    final future = repo.getPalavraByClassificacao(classificacaoId);
 
     return Scaffold(
       backgroundColor: const Color(0xFFF3E9E1),
@@ -28,7 +28,7 @@ class ListPalavraPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            FutureBuilder<List<String>>(
+            FutureBuilder<List<Map<String, dynamic>>>(
               future: future,
               builder: (context, snapshot) {
                 final count = snapshot.data?.length;
@@ -46,7 +46,7 @@ class ListPalavraPage extends StatelessWidget {
               },
             ),
             Expanded(
-              child: FutureBuilder<List<String>>(
+              child: FutureBuilder<List<Map<String, dynamic>>>(
                 future: future,
                 builder: (context, snapshot) {
                   if (snapshot.connectionState == ConnectionState.waiting) {
@@ -75,7 +75,11 @@ class ListPalavraPage extends StatelessWidget {
                           onTap: () => Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (_) => PalavraPage(palavra: palavras[index]),
+                              builder: (_) => PalavraPage(
+                                id: palavras[index]['id'] ?? 0,
+                                portugues: palavras[index]['portugues'] ?? '',
+                                assurini: palavras[index]['assurini'] ?? '',
+                              ),
                             ),
                           ),
                           child: Container(
@@ -109,7 +113,7 @@ class ListPalavraPage extends StatelessWidget {
                                 const SizedBox(width: 16),
                                 Expanded(
                                   child: Text(
-                                    palavras[index],
+                                    palavras[index]['portugues'],
                                     style: const TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.w500,

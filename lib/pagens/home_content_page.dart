@@ -14,7 +14,7 @@ class HomeContentPage extends StatefulWidget {
 class _HomeContentPageState extends State<HomeContentPage> {
   final _images = const [
     'assets/images/aldeia.png',
-    'assets/images/Arte_indigena1.png',
+    'assets/images/Arte_indígena1.png',
     'assets/images/escola.png',
   ];
 
@@ -79,7 +79,7 @@ class _HomeContentPageState extends State<HomeContentPage> {
             const SizedBox(height: 10),
 
             const CadCategoria(
-              nomeCad: "O PROVO ASSURINÍ TROCARÁ",
+              nomeCad: "O POVO ASSURINÍ TROCARÁ",
               imagenRela: 'assets/images/oca.png',
             ),
             const CadCategoria(

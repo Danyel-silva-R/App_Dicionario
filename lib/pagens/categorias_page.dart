@@ -1,6 +1,6 @@
+import 'package:dicionario_assurini/data/repositories/palavras_repository.dart';
 import 'package:flutter/material.dart';
 import 'list_palavra_page.dart';
-import 'package:dicionario_assurini/data/repositories/tupi_repository.dart';
 
 class CategoriasPage extends StatelessWidget {
   const CategoriasPage({super.key, this.showBackButton = true});
@@ -10,14 +10,14 @@ class CategoriasPage extends StatelessWidget {
   String? _iconFor(String nome) {
     final key = nome.toLowerCase();
     if (key.contains('natureza')) return 'assets/images/folha.png';
-    if (key.contains('animal')) return 'assets/images/pata.png';
+    if (key.contains('animais')) return 'assets/images/pata.png';
     if (key.contains('alimenta') || key.contains('comida')) {
       return 'assets/images/comida.png';
     }
-    if (key.contains('corpo')) return 'assets/images/m�o.png';
+    if (key.contains('corpo')) return 'assets/images/mão.png';
     if (key.contains('vida')) return 'assets/images/oca2.png';
     if (key.contains('fam')) return 'assets/images/pessoas.png';
-    if (key.contains('cultura')) return 'assets/images/fogo.png';
+    if (key.contains('cultura')) return 'assets/images/fogo.png'; 
     if (key.contains('express')) return 'assets/images/convesas.png';
     if (key.contains('objeto')) return 'assets/images/vaso.png';
     if (key.contains('pessoa')) return 'assets/images/pessoas.png';
@@ -31,7 +31,7 @@ class CategoriasPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final repo = TupiRepository();
+    final repo = PalavrasRepository();
     return Scaffold(
       backgroundColor: const Color(0xFFF3EADF),
 

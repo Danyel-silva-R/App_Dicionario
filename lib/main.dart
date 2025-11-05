@@ -4,10 +4,9 @@ import 'package:dicionario_assurini/pagens/splash_page.dart';
 import 'dart:io' show Platform;
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
-    // Habilita SQLite via FFI para desktop
     sqfliteFfiInit();
     databaseFactory = databaseFactoryFfi;
   }

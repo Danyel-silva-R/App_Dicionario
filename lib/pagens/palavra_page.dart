@@ -1,10 +1,13 @@
+//import 'package:dicionario_assurini/data/repositories/palavras_repository.dart';
+import 'package:dicionario_assurini/pagens/exemplos_builder.dart';
 import 'package:flutter/material.dart';
-import 'package:dicionario_assurini/data/repositories/word_repository.dart';
 
 class PalavraPage extends StatefulWidget {
-  final String palavra;
+  final int id;
+  final String portugues;
+  final String assurini;
 
-  const PalavraPage({super.key, required this.palavra});
+  const PalavraPage({super.key, required this.portugues, required this.assurini, required this.id});
 
   @override
   State<PalavraPage> createState() => _PalavraPageState();
@@ -12,22 +15,22 @@ class PalavraPage extends StatefulWidget {
 
 class _PalavraPageState extends State<PalavraPage> {
   bool isFavorite = false;
-  final _repo = WordRepository();
+  //final _repo = PalavrasRepository();
 
   @override
   void initState() {
     super.initState();
-    _loadFavorite();
+    //_loadFavorite();
   }
 
-  Future<void> _loadFavorite() async {
+  /*Future<void> _loadFavorite() async {
     try {
-      final fav = await _repo.isFavorite(widget.palavra);
+      final fav = await _repo.isFavorite(widget.portugues);
       if (mounted) setState(() => isFavorite = fav);
     } catch (_) {
       // silenciosamente ignora para não quebrar a UI
     }
-  }
+  }*/
 
   @override
   Widget build(BuildContext context) {
@@ -37,13 +40,14 @@ class _PalavraPageState extends State<PalavraPage> {
         backgroundColor: const Color(0xFF654321),
         foregroundColor: Colors.white,
         actions: [
+          /*
           IconButton(
             icon: Icon(
               isFavorite ? Icons.favorite : Icons.favorite_border,
               color: isFavorite ? Colors.red : Colors.white,
             ),
             onPressed: () async {
-              await _repo.toggleFavorite(widget.palavra);
+              await _repo.toggleFavorite(widget.portugues);
               await _loadFavorite();
               if (!mounted) return;
               ScaffoldMessenger.of(context).showSnackBar(
@@ -57,7 +61,7 @@ class _PalavraPageState extends State<PalavraPage> {
                 ),
               );
             },
-          ),
+          ),*/
         ],
       ),
       body: Padding(
@@ -84,7 +88,7 @@ class _PalavraPageState extends State<PalavraPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    widget.palavra,
+                    widget.assurini,
                     style: const TextStyle(
                       fontSize: 28,
                       fontWeight: FontWeight.bold,
@@ -92,8 +96,8 @@ class _PalavraPageState extends State<PalavraPage> {
                     ),
                   ),
                   const SizedBox(height: 8),
-                  const Text(
-                    'Palavra em Assurini',
+                  Text(
+                    'Em Português: ${widget.portugues}',
                     style: TextStyle(fontSize: 14, color: Color(0xFF9E9E9E)),
                   ),
                   const SizedBox(height: 16),
@@ -107,7 +111,7 @@ class _PalavraPageState extends State<PalavraPage> {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    'Esta é a definição da palavra "${widget.palavra}". Aqui seria mostrado o significado completo da palavra na língua Assurini, incluindo contexto cultural e exemplos de uso.',
+                    'Esta é a definição da palavra "${widget.portugues}". Aqui seria mostrado o significado completo da palavra na língua Assurini, incluindo contexto cultural e exemplos de uso.',
                     style: const TextStyle(
                       fontSize: 16,
                       color: Color(0xFF424242),
@@ -119,50 +123,7 @@ class _PalavraPageState extends State<PalavraPage> {
             ),
             const SizedBox(height: 20),
 
-            // Card de exemplo de uso
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(20),
-              decoration: BoxDecoration(
-                color: const Color(0xFFE8F5E8),
-                borderRadius: BorderRadius.circular(12),
-                border: Border.all(
-                  color: const Color(0xFF4CAF50).withOpacity(0.3),
-                ),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const Row(
-                    children: [
-                      Icon(
-                        Icons.lightbulb_outline,
-                        color: Color(0xFF4CAF50),
-                        size: 20,
-                      ),
-                      SizedBox(width: 8),
-                      Text(
-                        'Exemplo de uso:',
-                        style: TextStyle(
-                          fontSize: 14,
-                          fontWeight: FontWeight.w600,
-                          color: Color(0xFF4CAF50),
-                        ),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    'Aqui seria mostrado um exemplo prático de como a palavra "${widget.palavra}" é utilizada em uma frase ou contexto específico da cultura Assurini.',
-                    style: const TextStyle(
-                      fontSize: 14,
-                      color: Color(0xFF2E7D32),
-                      fontStyle: FontStyle.italic,
-                    ),
-                  ),
-                ],
-              ),
-            ),
+            BuildExemplosCards(id: widget.id)
           ],
         ),
       ),

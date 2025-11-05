@@ -1,7 +1,7 @@
 import 'package:sqflite/sqflite.dart';
 import '../database/app_database.dart';
 
-class TupiRepository {
+class PalavrasRepository {
   Future<Database> get _db async => AppDatabase.instance.database;
 
   Future<List<Map<String, dynamic>>> listClassificacoesWithCount() async {
@@ -9,40 +9,36 @@ class TupiRepository {
     return db.rawQuery('''
       SELECT c.id, c.nome, COUNT(p.id) AS total
       FROM Classificacao c
-      LEFT JOIN PalavraTupi p ON p.classificacao_id = c.id
+      LEFT JOIN PalavraAssurini p ON p.classificacao_id = c.id
       GROUP BY c.id, c.nome
       ORDER BY c.nome COLLATE NOCASE ASC
     ''');
   }
 
-  Future<List<String>> getTupiByClassificacao(int classificacaoId) async {
+  Future<List<Map<String, dynamic>>> getPalavraByClassificacao(int classificacaoId) async {
     final db = await _db;
     final res = await db.query(
-      'PalavraTupi',
-      columns: ['tupi'],
+      'PalavraAssurini',
+      columns: ['*'], 
       where: 'classificacao_id = ?',
       whereArgs: [classificacaoId],
-      orderBy: 'tupi COLLATE NOCASE ASC',
+      orderBy: 'portugues COLLATE NOCASE ASC',
     );
-    return res.map((e) => (e['tupi'] as String?) ?? '').where((s) => s.isNotEmpty).toList();
+    return res; 
   }
 
-  Future<List<Map<String, String>>> searchPalavras(String query) async {
+  Future<List<Map<String, dynamic>>> searchPalavras(String query) async {
     final q = query.trim();
     if (q.isEmpty) return [];
     final db = await _db;
     final res = await db.query(
-      'PalavraTupi',
-      columns: ['tupi', 'portugues'],
-      where: 'tupi LIKE ? OR portugues LIKE ?',
+      'PalavraAssurini',
+      columns: ['*'], 
+      where: 'assurini LIKE ? OR portugues LIKE ?',
       whereArgs: ['%$q%', '%$q%'],
-      orderBy: 'tupi COLLATE NOCASE ASC',
+      orderBy: 'assurini COLLATE NOCASE ASC',
       limit: 100,
     );
-    return res.map((e) => {
-          'tupi': (e['tupi'] as String?) ?? '',
-          'portugues': (e['portugues'] as String?) ?? '',
-        }).toList();
+    return res;
   }
 }
-
