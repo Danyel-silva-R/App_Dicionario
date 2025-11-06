@@ -2,37 +2,56 @@ import 'package:dicionario_assurini/data/repositories/palavras_repository.dart';
 import 'package:flutter/material.dart';
 import 'palavra_page.dart';
 
-class FavoritosPage extends StatelessWidget {
+class FavoritosPage extends StatefulWidget {
+  final bool showBackButton;
+
   const FavoritosPage({super.key, this.showBackButton = true});
 
-  final bool showBackButton;
+  @override
+  State<FavoritosPage> createState() => FavoritosPageState();
+}
+
+class FavoritosPageState extends State<FavoritosPage> {
+  final _repo = PalavrasRepository();
+  late Future<List<Map<String, dynamic>>> _favoritesFuture;
+
+  @override
+  void initState() {
+    super.initState();
+    _favoritesFuture = _repo.getFavorites();
+  }
   
+  void loadFavorites() {
+    setState(() {
+      _favoritesFuture = _repo.getFavorites();
+    });
+  }
+
   List<Widget> _buildEmpty() => const [
-        Icon(
-          Icons.favorite_border,
-          size: 80,
-          color: Color(0xFF9E9E9E),
-        ),
-        SizedBox(height: 16),
-        Text(
-          'Nenhum favorito ainda',
-          style: TextStyle(fontSize: 18, color: Color(0xFF9E9E9E)),
-        ),
-        SizedBox(height: 8),
-        Text(
-          'Adicione palavras aos favoritos\npara vê-las aqui',
-          textAlign: TextAlign.center,
-          style: TextStyle(fontSize: 14, color: Color(0xFFBDBDBD)),
-        ),
-      ];
+      Icon(
+        Icons.favorite_border,
+        size: 80,
+        color: Color(0xFF9E9E9E),
+      ),
+      SizedBox(height: 16),
+      Text(
+        'Nenhum favorito ainda',
+        style: TextStyle(fontSize: 18, color: Color(0xFF9E9E9E)),
+      ),
+      SizedBox(height: 8),
+      Text(
+        'Adicione palavras aos favoritos\npara vê-las aqui',
+        textAlign: TextAlign.center,
+        style: TextStyle(fontSize: 14, color: Color(0xFFBDBDBD)),
+      ),
+    ];
 
   @override
   Widget build(BuildContext context) {
-    final repo = PalavrasRepository();
-    return Scaffold( /*
+    return Scaffold( 
       backgroundColor: const Color(0xFFF3E9E1),
-      body: FutureBuilder<List<String>>(
-        future: repo.getFavorites(),
+      body: FutureBuilder<List<Map<String, dynamic>>>(
+        future: _favoritesFuture, 
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(child: CircularProgressIndicator());
@@ -56,15 +75,23 @@ class FavoritosPage extends StatelessWidget {
             padding: const EdgeInsets.all(16),
             itemCount: favoritos.length,
             itemBuilder: (context, index) {
+              final palavra = favoritos[index];
               return Container(
                 margin: const EdgeInsets.only(bottom: 12),
                 child: InkWell(
-                  onTap: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (_) => PalavraPage(palavra: favoritos[index]),
-                    ),
-                  ),
+                  onTap: () async {
+                    await Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => PalavraPage(
+                          id: palavra['id'],
+                          portugues: palavra['portugues'],
+                          assurini: palavra['assurini'],
+                        ),
+                      ),
+                    );
+                    loadFavorites(); 
+                  },
                   child: Container(
                     padding: const EdgeInsets.all(16),
                     decoration: BoxDecoration(
@@ -82,7 +109,7 @@ class FavoritosPage extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Text(
-                            favoritos[index],
+                            palavra['portugues'],
                             style: const TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.w500,
@@ -104,6 +131,6 @@ class FavoritosPage extends StatelessWidget {
           );
         },
       ),
-    */);
+    );
   }
 }

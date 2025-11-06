@@ -4,7 +4,7 @@ import 'buscar_page.dart';
 import 'favoritos_page.dart';
 import 'categorias_page.dart';
 import 'configuracoes_page.dart';
-import 'home_content_page.dart'; // <- nova página para a Home
+import 'home_content_page.dart';
 
 class AppPage extends StatefulWidget {
   const AppPage({super.key});
@@ -15,16 +15,27 @@ class AppPage extends StatefulWidget {
 
 class _HomePageState extends State<AppPage> {
   int _selectedIndex = 0;
+  
+  // Crie uma GlobalKey para a FavoritosPage
+  final GlobalKey<FavoritosPageState> _favoritesKey = GlobalKey();
 
-  final List<Widget> _pages = [
-    const HomeContentPage(), // <- nova tela de "Início"
-    const BuscarPage(showBackButton: false),
-    const CategoriasPage(showBackButton: false),
-    const FavoritosPage(showBackButton: false),
-    const ConfiguracoesPage(showBackButton: false),
-  ];
+  late final List<Widget> _pages; // Mude para late final
 
   @override
+
+  void initState() {
+    super.initState();
+    // Inicialize a lista _pages no initState, usando a chave
+    _pages = [
+      const HomeContentPage(),
+      const BuscarPage(showBackButton: false),
+      const CategoriasPage(showBackButton: false),
+      // Atribua a chave à FavoritosPage
+      FavoritosPage(key: _favoritesKey, showBackButton: false), 
+      const ConfiguracoesPage(showBackButton: false),
+    ];
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -49,6 +60,9 @@ class _HomePageState extends State<AppPage> {
           setState(() {
             _selectedIndex = index;
           });
+          if (index == 3) {
+            _favoritesKey.currentState?.loadFavorites();
+          }
         },
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.white70,

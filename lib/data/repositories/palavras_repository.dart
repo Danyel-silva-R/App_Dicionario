@@ -42,6 +42,17 @@ class PalavrasRepository {
     return res;
   }
 
+  Future<List<Map<String, dynamic>>> getFavorites() async {
+    final db = await _db;
+    final res = await db.query(
+      'PalavraAssurini',
+      columns: ['*'], 
+      where: 'favorito = 1',
+      orderBy: 'portugues COLLATE NOCASE ASC',
+    );
+    return res; 
+  }
+
   Future<void> toggleFavorite(int id) async {
     final db = await _db;
     await db.rawUpdate(
