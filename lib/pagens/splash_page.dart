@@ -30,7 +30,8 @@ class _SplashPageState extends State<SplashPage> {
   }
 
   Future<void> _initializeApp() async {
-    await resetDatabase();
+    // Só usar o resetDatabase() se alguma alteração for feita na estrutura do banco de dados, pq isso vai resetar todos os favoritos do usuario
+    //await resetDatabase();
     try {
       print('Inicializando banco...');
       final db = await AppDatabase.instance.database;
