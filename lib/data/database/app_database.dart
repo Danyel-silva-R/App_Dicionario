@@ -52,11 +52,9 @@ class AppDatabase {
     await db.execute('''
       CREATE TABLE IF NOT EXISTS PalavraAssurini (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
+        favorito INTEGER DEFAULT 0,
         portugues TEXT NOT NULL,
         assurini TEXT NOT NULL,
-        pronuncia TEXT,
-        audio_path TEXT,
-        imagem_path TEXT,
         classificacao_id INTEGER NOT NULL,
         FOREIGN KEY (classificacao_id) REFERENCES Classificacao(id)
           ON DELETE RESTRICT ON UPDATE CASCADE

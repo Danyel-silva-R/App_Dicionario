@@ -41,4 +41,23 @@ class PalavrasRepository {
     );
     return res;
   }
+
+  Future<void> toggleFavorite(int id) async {
+    final db = await _db;
+    await db.rawUpdate(
+      'UPDATE PalavraAssurini SET favorito = 1 - favorito WHERE id = ?',
+      [id],
+    );
+  }
+
+  Future<bool> isFavorite(int id) async {
+    final db = await _db;
+    final result = await db.query(
+      'PalavraAssurini',
+      columns: ['favorito'],
+      where: 'id = ?',
+      whereArgs: [id],
+    );
+    return result.isNotEmpty && result.first['favorito'] == 1; 
+  }
 }

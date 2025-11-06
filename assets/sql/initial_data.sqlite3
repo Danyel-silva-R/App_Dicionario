@@ -8,53 +8,141 @@ VALUES
   ('Vida Cotidiana'),
   ('Outros');
 
-
 INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
-VALUES ('A', 'Pref. pess EU ', 6);
+VALUES ('A', 'EU (Pref. pessoal)', 6);
 INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
-VALUES
-  (1, 'AHÁ POTÁ ', 'EU VOU '),
-  (1, 'AHÁSOKWÉSOKWÉN ', 'EU VOU MUITAS VEZES '),
-  (1, 'AHÉMSOKWÉSOKWÉM ', 'EU SAIO MUITAS VEZES '),
-  (1, 'AKWAHÁM IKÁWA ', 'EU SEI QUEBRAR '),
-  (1, 'APO´ ÓM WE´ ÓMA ', 'EU ESTOU EM PÉ '),
-  (1, 'AAPÝNG WETOÍNA ', 'EU ESTOU SENTADO '),
-  (1, 'A´ÁM WETÓTA ', 'EU VIM DEITAR '),
-  (1, 'ASÓM WE´ÁPA ', 'EU ESTOU DEITADO '),
-  (1, 'AJ A´ ÓM WEPO´ ÓMA ', 'EU ESTOU EM PÉ '),
-  (1, 'MO´ÝRA WESEOPÉ IAPÓRAMO APYHÝNG TA PÉN OHÍ ', 'SE VOCÊS FIZEREM COLAR PARA MIM EU PEGO  DE VOCÊS '),
-  (1, 'AHÁ POTÁ WEKARÓ ', 'EU VOU PARA COMER ');
+VALUES (1, 'AHÁ POTÁ ', 'EU VOU ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1, 'AHÁSOKWÉSOKWÉN ', 'EU VOU MUITAS VEZES ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1, 'AHÉMSOKWÉSOKWÉM ', 'EU SAIO MUITAS VEZES ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1, 'AKWAHÁM IKÁWA ', 'EU SEI QUEBRAR ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1, 'APO´ ÓM WE´ ÓMA ', 'EU ESTOU EM PÉ ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1, 'AAPÝNG WETOÍNA ', 'EU ESTOU SENTADO ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1, 'A´ÁM WETÓTA ', 'EU VIM DEITAR ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1, 'ASÓM WE´ÁPA ', 'EU ESTOU DEITADO ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1, 'AJ A´ ÓM WEPO´ ÓMA ', 'EU ESTOU EM PÉ ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1, 'MO´ÝRA WESEOPÉ IAPÓRAMO APYHÝNG TA PÉN OHÍ ', 'SE VOCÊS FIZEREM COLAR PARA MIM EU PEGO  DE VOCÊS ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1, 'AHÁ POTÁ WEKARÓ ', 'EU VOU PARA COMER ');
 INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
-VALUES ('A - ', 'Pref. pess ELE/ELA/ELES/ELAS', 6);
+VALUES ('A - ', 'ELE/ELA/ELES/ELAS (Pref. pess)', 6);
 INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
-VALUES
-  (2, 'AHÁAHÁRAMÉ ', 'ELES FORAM TODOS AGORINHA'),
-  (2, 'AMONGATYRÓ POTÁ IAPÉNA AKÁ', 'EU VOU CONSERTA-LO PARA ELE FICAR RETO ');
+VALUES (2, 'AHÁAHÁRAMÉ ', 'ELES FORAM TODOS AGORINHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (2, 'AMONGATYRÓ POTÁ IAPÉNA AKÁ', 'EU VOU CONSERTA-LO PARA ELE FICAR RETO ');
 INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
-VALUES ('- A ', 'SUF.CAS ´ARGUMENTATIVO ', 7);
+VALUES ('- A ', 'SUF. CAS ARGUMENTATIVO ', 7);
 INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
-VALUES
-  (3, 'APOTÁN NÉ ROHÁWA ', 'EU QUERO TU A VINDA '),
-  (3, 'APOTÁN NÉ ROAWÓMA ', 'EU QUERIA QUE VOCÊ VIESSE '),
-  (3, 'IKATOETÉ HESAKÁWA ', 'É BOM VÊ-LO '),
-  (3, 'SÉ KYWÝRA RA´ÝRA  O´Ó MÁSA', 'A COBRA MORDEU O FILHO DO MEU IRMÃO ');
+VALUES (3, 'APOTÁN NÉ ROHÁWA ', 'EU QUERO TU A VINDA ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (3, 'APOTÁN NÉ ROAWÓMA ', 'EU QUERIA QUE VOCÊ VIESSE ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (3, 'IKATOETÉ HESAKÁWA ', 'É BOM VÊ-LO ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (3, 'SÉ KYWÝRA RA´ÝRA  O´Ó MÁSA', 'A COBRA MORDEU O FILHO DO MEU IRMÃO ');
 INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
-VALUES ('- A', 'SUF.MOD ´GERÚNDIO', 7);
+VALUES ('- A', 'SUF.MOD GERÚNDIO', 7);
 INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
-VALUES
-  (4, 'AJ HEKÁJ WE OPÁKA ', 'ELE AINDA ESTA ACORDADO '),
-  (4, 'ÓRAMO MENSÁRA OSE´ÉNGA', 'PODERIA VIR A ESPOSA PARA FALAR'),
-  (4, 'AJ ITÓWI O´ÁPA ', 'ELE ESTA DEITADO ');
+VALUES (4, 'AJ HEKÁJ WE OPÁKA ', 'ELE AINDA ESTA ACORDADO ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (4, 'ÓRAMO MENSÁRA OSE´ÉNGA', 'PODERIA VIR A ESPOSA PARA FALAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (4, 'AJ ITÓWI O´ÁPA ', 'ELE ESTA DEITADO ');
 INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
-VALUES ('- AATÝ ', 'ninho´', 2);
+VALUES ('- AATÝ ', 'Ninho', 2);
 INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
-VALUES
-  (5, 'HAATÝ ', 'NINHO '),
-  (5, 'WYRÁ RAATÝA ', 'NINHO DE PASSARINHO '),
-  (5, 'HAATÝ O´ÁN ', 'O NINHO DELE CAIU ');
+VALUES (5, 'HAATÝ ', 'NINHO ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (5, 'WYRÁ RAATÝA ', 'NINHO DE PASSARINHO ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (5, 'HAATÝ O´ÁN ', 'O NINHO DELE CAIU ');
 INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
-VALUES ('- aháp ', ' ´atravessar´ ', 6);
+VALUES ('- aháp ', 'Atravessar', 6);
 INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
-VALUES
-  (6, 'O´ÝA AHÁM AHÁ ', 'ELE ATRAVESSOU O RIO '),
-  (6, 'O´ÝA AHÁM AHÁ IPESÓ YHÁRA PYPÉ ', 'ELE ATRAVESSOU O RIO REMANDO DENTRO DA CANOA');
+VALUES (6, 'O´ÝA AHÁM AHÁ ', 'ELE ATRAVESSOU O RIO ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (6, 'O´ÝA AHÁM AHÁ IPESÓ YHÁRA PYPÉ ', 'ELE ATRAVESSOU O RIO REMANDO DENTRO DA CANOA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('- AHÉM ', 'Gemer', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (7, 'HAHÉMA ', 'GEMIDO DELE ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (7, 'HAHÉMWA´É', 'O QUE GEME ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (7, 'SÉ TOTÝRA HAHÉM ÓPA ', 'MEU TIO ESTA GEMENDO DEITADO ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (7, 'HAHÉM OPÁM ', 'O GEMIDO DELE ACABOU ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (7, 'N AHÉMIHI ', 'ELE NÃO GEMEU ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('- AHÍT ', 'Arranhar / Rasgando', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (8, 'AHÝN ', 'EU ARRANHEI (OUTRO)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (8, 'SÉ RAHÍN ', 'ELE ME ARRANHOU ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (8, 'ÓN SÉ RAHÍTA ', 'ELE VEIO PARA ME ARRANHAR ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('- AHÝ ', 'Ter dor', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (9, 'SÉ PÝA HAHÝ NO ', 'MEU PÉ DÓI DE NOVO ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (9, 'TAHÝA WEREKÁ ', 'ELE TEM DOENÇA ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (9, 'MA´É PA NÉ OHÍ HAHÝ ', ' O QUE DE VOCÊ DÓI? ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (9, 'HAHÝA OPYHÝNG ', 'ELE PEGOU DOENÇA DE OUTRO ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (9, 'OHÝA RAHÝA OPYHÝNG ', 'ELE PEGOU DOENÇA DA MÃE ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('- AHÝAHÝ ', 'Suf.asp Intensivo ', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (10, 'OATÁAHÝAHÝ ', 'ELE ANDOU RÁPIDO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (10, 'OSE´ ENGAHÝAHÝ SÉ OPÉ ', 'ELE FALOU MUITO BRAVO PARA MIM ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (10, 'EREMO´ ÉNGAHÝAHÝ ', 'VOCÊ ENSINA (RECLAMANDO, PORQUE A CRINAÇA NÃO APRENDE DIREITO)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (10, '- AIKÝNG ', 'TIRÓIDE´');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (10, 'SÉ AIKÝNGA ', 'MINHA TIRÓIDE ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('- ÁJ ', 'Azedo', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (11, 'HÁJ ', 'É AZEDO ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (11, 'IKO´ ÉMWA´É HÁJ ', 'O QUE AMANHECEU AZEDO ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (11, 'AWATÍA HÁJ ', 'O ARROZ ESTÁ AZEDO ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('- AKÁ ', 'MORAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (12, 'AKÁPOTÁ NÉ PÝRI ', 'EU VOU MORAR COM VOCÊ ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (12, 'HEKÁPOTÁRI SÉ PÝRI ', 'ELE VAI MORAR COMIGO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('AKÁ  ', 'AQUI', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (13, 'OSAKÁ AKÁ ', 'ELE MATOU AQUI');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (13, '- AKÁK ', 'ABRAÇAR´ (PASSAR O BRAÇO POR TRÁS DOS OMBROS OU DO PESCOÇO DE ALGUÉM.');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (13, 'OAAKÁNG ', 'ELE O ABRAÇOU (SÓ SEPAREI OS EXEMPLOS)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (13, 'WERAKÁ IAKÁKA ', 'ELE LEVOU O OUTRO ABRAÇANDO-O ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('AKA´Ó ', 'Cacau', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (14, 'A´ÓJÉJ AKA´ÓA ', 'EU DESEJO COMER CACAU ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('Aka´ó´ýp ', 'cacaueiro´ ', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (15, 'o´ án aka´ó´ýwa ', 'O CACAUEIRO CAIU ');
