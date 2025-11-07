@@ -103,6 +103,7 @@ class _PalavraPageState extends State<PalavraPage> {
                       'Em Português: ${widget.portugues}',
                       style: TextStyle(fontSize: 14, color: Color(0xFF9E9E9E)),
                     ),
+                    /* O app nao é pra ter definição
                     const SizedBox(height: 16),
                     const Text(
                       'Definição:',
@@ -121,6 +122,7 @@ class _PalavraPageState extends State<PalavraPage> {
                         height: 1.5,
                       ),
                     ),
+                    */
                   ],
                 ),
               ),
