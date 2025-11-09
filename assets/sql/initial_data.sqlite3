@@ -5903,3 +5903,2109 @@ INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
 VALUES (880, 'PETYTÍNGA MOTIWAKÁWA', 'INSTRUMENTO DE RISCAR PAPEL');
 INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
 VALUES (880, 'PETYTÍNGA RYRÓA', 'ENVELOPE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PEWERÁ', 'ESTREITO', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (881, 'IPEWERÁ', 'ELE É ESTREITO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PI', 'FERRAR, PICAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (882, 'OPÍ', 'ELA (A CABA) O FERRO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (882, 'KÁWA OPÍ SÉ MEMÝRA', 'A CABA PISCOU MEU FILHO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIAWÁK', 'TIRAR, DESCOBRIR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (883, 'APIAWÁNG WETATÝA TOPOWANGÁWA ISOHÍ IMÓTA', 'EU TIREI O LENÇOL DA MINHA MULHER');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (883, 'OKWAHÁM ISÉ IPIWÁKÁWA', 'ELE SABE QUE EU DESCUBRO O MENINO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIHÁ', 'PEDAÇO', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (884, 'AMANÁ POTÁ PIHÁ NÉ OPÉ', 'EU VOU MANDAR UM PEDAÇO PARA VOCÊ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIHÉ', 'CHEIRO, ODOR', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (885, 'AKWAHÁM NÉ PIHÉ', 'EU CONHEÇO TEU CHEIRO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (885, 'IPHÉ', 'CHEIRO DELE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIHÍP', 'PINTAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (886, 'ÓN PIHÍPA KÓSA', 'ELE VEIO PARA PINTAR CUIA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (886, 'OPIHÍM TA WARA´Á', 'ELE VAI PINTAR WARAÁ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (886, 'OKWAHÁM ISÉ OPIHIPÁWA', 'ELE SABE QUE EU VOU PINTÁ-LO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIHITÁP', 'INSTRUMENTO OU LUGAR DE PINTAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (887, 'OPIHÍM OPIHITÁWA PÓ', 'ELE PINTOU COM SEU PRÓPRIO PINCEL');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIHÓM', 'BELISCAR', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (888, 'SÉ PIHÓM IPÉ A´É OROPIHÓM', 'VOCÊ ME BESLICOU, ENTÃO, TE BESLIQUEI');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (888, 'OROSOPIHÓM', 'NÓS NOS BELISCAMOS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (888, 'APIHÓM TA WEHÁ KONOMÍA I´ÁWOKOWA´É', 'VOU BELISCAR O MENINO QUE TEM O CABELO COMPRIDO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIHÓN', 'PRETO', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (889, 'IPIHÓNWA´´ÉKWÉRA IPITÍNG', 'ELE ERA PRETO, AGORA É BRANCO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (889, 'IPIHÓN AHÁ AKÁ', 'ELE JÁ ESTÁ FICANDO PRETO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (889, 'IPIHÓN', 'ELE É PRETO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIIPÍ', 'PEQUENO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (890, 'IPIIPÍWA´É OKARÓ POTÁ SÉ RÁNGA PYPÉ', 'OS MENINOS QUE SÃO PEQUENOS VÃO COMER NA MINHA CASA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIIPHEPÝ', 'BARATO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (891, 'PIIPIHEPÝA', 'BARATO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIKÁP', 'FERRADA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (892, 'IPIKÁWA HAHÝ', 'A FERRADA DELE DOI');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PI´ÁMOWÝT', 'CAPAR', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (893, 'OROPÍ´ÁMOWPÝN TA', 'EU VOU TE CAPAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (893, 'ÓN HOPI´ÁMOWÝTA', 'ELE VEIO PARA CAPAR O OVO DO OUTRO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (893, 'N OPÍ´ÁMOWÝRIHI', 'EU VOU TE CAÇAR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÍN', 'RASPAR, PELAR, TIRAR PÊLO', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (894, 'EPÍNEME E´ÁWA', 'NÃO RASPE SEU CABELO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (894, 'EREPÍN APÓ MANI´ÁNGA', 'NÃO RASPE MANDIOCA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (894, 'APÍN TA', 'EU VOU TIRAR PÊLO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PINÁ', 'ANZOL', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (895, 'SÉ PINÁ', 'MEU ANZOL');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PINÁHÓM', 'FIBRA, CORDÃO DE ANZOL, LINHA DE PESCAR', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (896, 'PINAHÓMA', 'FIBRA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (896, 'IPINÁHÓMA', 'A LINHA DE PESCAR DELE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PINÁP', 'LUGAR DE RASPAR', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (897, 'TENÝWAHÁWA PINÁWA', 'BARBEARIA OU BARBEADOR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PINÍM', 'PINTAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (898, 'APINÍM TA KÓSA', 'EU PINTO CUIA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (898, 'N APINÍMTÁRI KÓSA', 'EU NÃO QUERO PINTAR CUIA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PINÍPINÍM', ' PINTADO (COM PINTAS)', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (899, 'IPINÍPINÍM', 'ELE TEM PINTAS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (899, 'SAWÁRA IPINÍPINÍMWA´É', 'É O CACHORRO PINTADO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PINOWÁ', 'BABACA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (900, 'PINOWÁ A´OHÉJ PANÉ', 'EU ESTOU COM VONTADE DE COMER BACABA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIOMÝT', 'BESLICAR', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (901, 'IPIOMÝRA', 'O BESLICADO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIRAHPY', 'CHATEADO, RAIVOSO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (902, 'IPIRAHPY', 'ELE ESTÁ CHATEADO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIRÁK', 'TIRAR/ ARRANCAR PELE', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (903, 'EREPIRÁNGAPO', 'NÃO TIRE A PELE!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (903, 'ÓN IPIRÁKA', 'ELE VEIO PARA TIRAR O COURO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (903, 'EPIRÁNG', 'TIRE A PELE!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIRAKYRÍ', ' PIABA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (904, 'PIRAKYRÍA HETÁ', 'TEM COMIDA PIABAS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIRÁP', 'COCEIRA', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (905, 'IPYRÁM', 'COÇA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (905, 'NA IPIRÁEIHI', 'NÃO TEM COCEIRA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIRÁT', 'ATIRAR FLECHA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (906, 'APIRÁM', 'EU ATIRO FLECHA, EU FLECHO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (906, 'OKWAHÁM IPIRÁTA YWÝARAPÁRA', 'ELE SABE ATIRAR FLECHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (906, 'ÓN IPIRÁTA YWYRAPÁRA', 'ELE VEIO PARA ATIRAR FLECHA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIRÉY', 'PELE', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (907, 'KYHÉPIRERÁ', 'BISTURI');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIRI´ÁJ', 'CALOR', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (908, 'IPIRI´ÁJ', 'ELE TEM CALOR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (908, 'NÉ PIRI´ÁJ PA', 'TU ESTÁS COM CALOR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIRO´Á', 'CALO', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (909, 'IPIRO´Á', 'CALO DELE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (909, 'SÉ PIRO´Á', 'MEU CALO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PIRÓNG', 'VERMELHO', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (910, 'NIMÁ IPIRONG WA´EPÓ AKOTÓNG TYRÓA', 'COM FIO VERMELHO, EU COSTUREI ROUPA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PISÁN', 'GATO (EMPRÉSARIO DA LGA, PROVAVELMENTE VIA PORYUGUÊS)', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (911, 'PISÁNA', 'GATO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PISÓK', 'PANO BRANCO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (912, 'IPISÓNG', 'ELE TEM PANO BRANCO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (912, 'N AIPISÓNWIHI', 'ELE NÃO TEM PANO BRANCO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÍT', 'PELE, COURO', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (913, 'IPIRÉRA', 'A EX-PELO DELE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PITAWÓNGOHÓ', 'BEM-TI-VI', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (914, 'PITAWÓNGOHÓA OSE´ENGÁNOHÓ', 'BEM-TI-VI CANTOU MUITO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PITÍNG', 'BRANCO', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (915, 'IPITÍNWA´É', 'O QUE É BRANCO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (915, 'IPITÍNGWA´ÉKWÉRA IPIHÓN', 'ELE ERA BRANCO AGORA É ESCURO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PITÍWETÓNG', 'CLARO', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (916, 'IPITÍWETÓNG', 'ELE É CLARO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (916, 'NA IPITÍWETÓNGIHI', 'ELE NÃO É CLARO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÓ', 'POSP. IA INSTRUMENTIVO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (917, 'WEPÁ PÓ A´Ý´Ó', 'EU BEBI ÁGUA NA MINHA MÃO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (917, 'ASEPAKYTÍ KYHÉ PÓ', 'EU CORTEI MEU DEDO COM A FACA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (917, 'WEPÁ PÓ ATYAMÍ', 'EU ESPREMO COM AS MÃOS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (917, 'MARASÁ´ÝWA PÓ OKOTÓNG', 'COM A MADEIRA DE (FAZER) LANÇA ELE FUROU (OUTRO)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (917, 'OPIHPIM OPIHITÁWA PÓ', 'ELE PINTOU COM SEU PINCEL');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (917, 'IPIRÁ AMANÁNG KIE´ÍA PÓ', 'EU CORTEI O PEICE COM A FACA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (917, 'ÝWA PÓ ANOPÓ', 'EU BATI COM O PAU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (917, 'MISAPÝA PÓ ANOPÓ ITASOA', 'EU BATI O PREGO COM O MARTELO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (917, 'ITAPEAOHÓA PÓ APEHÍN YTÝA', 'EU VARRI SUJEIRA COM O VASSOURÃO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (917, 'MA´É PÓ PA EREAPÓ', 'COM QUE VOCÊ O FEZ?');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÓ', ' FAZER BARULHO, ZOADO, ESTRONDO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (918, 'PEPÓEME', 'NÃO FAÇAM NARULHO!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (918, 'EPÓEME', 'NÃO FAÇA BARULHO!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POEMÉ', 'CALAR, ACALENTAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (919, 'EPOEMÉ', '...');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POHÁNG', 'REMÉDIO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (920, 'IPOHÁNGA O´O HETÝKA OMEMÝRA', 'ELA BEBEU REMÉDIO E PERDEU O FILHO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (920, 'POHÁNGA RYRÓA', 'FARMÁCIA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (920, 'POHÁNGA MANATÁRA', 'ENFERMEIRO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (920, 'TORÝPERÓNA SOKATÁWA POHÁNGA', 'REMÉDIO DE MATAR BARATA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POHÁNG', 'PERFUME', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (921, 'SÉ POHÁNAGA', 'MEU PERFUME');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POHÉ', 'POSP. IA PARA JUNTO DE (NA REDE)', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (922, 'ESÁN SÉ POHÉ', 'VEM PARA JUNTO DE MIM, VEM DEITAR COMIGO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POHÉJ', 'LAVAR ROUPA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (923, 'PESÉ IPOHÉJTA', 'PODEM LAVAR A ROUPA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (923, 'AWÁ PA OPOHÉJ TA MEROSÍA RYRÓA', 'QUEM VAI LAVAR A ROUPA DE MEROSÍA?');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (923, 'EREPOHÉJRAPÓ', 'NÃO LAVE PRATO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POHÉJPÁP', 'LAVAR TUDO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (924, 'TYEPOA APOHÉJPAPA I´ÁMTARI OKÉTA', 'DEPOIS DE LAVAR TUDO ELA VAI DORMIR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POHÉJTAP', 'INSTRUMENTO DE LAVAR, BUCHA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (925, 'PARAATÍNGA POHÉJTÁWA', 'BUCHA DE LAVAR PRATOS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POHÉJTÁT', 'LAVADEIRA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (926, 'MA´É TYRÓA POHÉJTÁRA', 'LAVADEIRA DE ROUPA, EMPREGADA DOMÉSTICA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POHÍT', 'LAGAR, SOLTAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (927, 'APOHÍN WEMEMÝRA', 'EU SOLTEI MEU FILHO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (927, 'AKWAHÁM IPOÍNÁWA', 'EU SEI QUE ELE VAI SOLTÁ-LO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (927, 'EPOHÍN SÉ OHÍ!', 'LARGUE DE MIM!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (927, 'APOHÍM TA NÉ OHÍ', 'EU VOU TE SOLTAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (927, 'OPOHÍN ISOHÍ', 'ELE O SOLTOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POHÓJ', 'PESADO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (928, 'IPOHÓJ', 'ELE É PESADO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (928, 'NA SÉ POHÓJHI', 'EU NÃO SOU PESADO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (928, 'TEHÁ POHÓNGA', 'REMÉDIO DE OLHOS OU COLÍRIO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POHÓNG', 'REMÉDIO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (929, 'IPOHÓNGA', 'A POMADA DELE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (929, 'TORÝPERÓNA SOKATÁWA POHÁNGA', 'REMÉDIO DE MATAR BARATA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (929, 'MÁSA POHÁNGA', 'REMÉDIO PARA MORDIDA DE COBRA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (929, 'TEHÁ POHÓNGA', 'COLIRIO OU REMÉDIO DE OLHOS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POKÁ', ' RIR, GARGALHA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (930, 'OPOKÁ', 'ELE GARGALHOU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (930, 'APOKÁ', 'EU RI');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (930, 'APOKÁ WETÓTA WEWAHÉMA', 'EU CHEGUEI RINDO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POKATÉ', ' RIR À TOA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (931, 'OPOKATÉ', 'ELE RIU À TOA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POKÓ', 'COMPRIDO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (932, 'IPOKÓ', 'ELE É GRANDE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PO´ÓM', ' ESTAR EM PÉ', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (933, 'EOPÉ PEPO´ÓMEME', 'NÃO FIQUEI AÍ EM PÉ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (933, 'EOPÉ PEPO´ÓMEME ORONOPÓRAPO', 'NÃO FIQUEI AÍ EM PÉ SENÃO EU TE BATO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (933, 'ÁJ SAPO´ÓM', 'NÓS LEVANTAMOS AÍ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (933, 'ÁJ EOPÉ I´ÓMI', 'ELE ESTA AÍ, LEVANTADO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (933, 'ÁJ A´ÓM WEPO´ÓMA', 'EU ESTOU EM PÉ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (933, 'ERE´ÓM EPO´ÓMA', 'VOCÊ ESTÁ EM PÉ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (933, 'ORO´ÓM OROPO´ÓMA', 'NÓS ESTAMOS EM PÉ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (933, 'OPO´ÓM O´ÓMA', 'ELES ESTÃO EM PÉ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PO´ÓM', 'VINT. IA GUERREAR, LUTAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (934, 'OPO´ÓM TA OSOWEHÉ', 'ELES VÃO GUERREAR (LEVANTAR-SE UNS CONTRAS OS OUTROS)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PO´YT', 'CONTAR, COLAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (935, 'MO´ÝARA AMANÁ ISOPÉ', 'EU MANDEI UM COLAR PARA ELA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (935, 'PESÉ IAPO MO´YRA', 'FAÇAM COLAR!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (935, 'KOWÉY EPYHÝG SÉ PO´ÝARA AHÁ POTÁ', 'PEGA LOGO MEU COLAR SENÃO EU VOU EMBORA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POMÓNG', '. IA PREGUENTO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (936, 'IPOMPÓNG', 'ELE É PREGUENTO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (936, 'AKWAHÁM IPOMÓNGA', 'EU SEI QUE ELE ESTÁ PREUENTO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POMÓNGÓHÓ', '. IA MUITO PREGUENTO', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (937, 'IPOMONGOHÓ', 'ELE É MUITO PREGUENTO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (937, 'POMYMÝK', 'FIAR ALGODÃO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (937, 'EPOMYMÝNGEME', 'NÃO FIE ALGODÃO!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (937, 'AKWAHÁM ISÉ IPOMYMÝKÁWA', 'ELE SABE QUE EU FIO ALGODÃO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PONEKWÁP', 'DESENCONTRAR-SE DE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (938, 'OROPONEKWÁM TA', 'EU VOU ME DESENCONTRAR DE VOCÊ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (938, 'N OROPONEKWÁWIHI', 'EU NÃO VOU ME DESENCONTRAR DE VOCÊ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POPEWÝT', 'SOVACO', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (939, 'NÉ POPEWÝRA', 'TEU SOVACO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (939, 'SÉ POPEWÝRÁ', 'MEU SOVACO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (939, 'NÉ POPEWÝA', 'SEU SOVACO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POPIROHÓ', '. IA LARGO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (940, 'IPOPIROHÓ', 'ELE É LARGO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PORAHÁJ', 'VINTR IB DANÇAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (941, 'OPORAHÁJ', 'ELE DANÇOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PORAHÁJTÁP', 'FESTA, LUGAR DE DANÇA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (942, 'IARÓ SENÉ PORAHÁJTÁWA', 'NOSSA FESTA É BONITA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (942, 'MORAHÁJTÁWA SÁRA', 'DONO DA FESTA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PORIAHÓP', 'N I TRISTE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (943, 'ISOKAHÁWA IPORIAHÓM', 'A MATANÇA DELE FOI TRISTE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (943, 'NA SÉ PORIAHÓWIHI NÉ OPÉ', 'NÃO ADIANTA FICARES COM PENA DE MIM (TRISTE POR MIM)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (943, 'AKWAHÁM NÉ PORIHÓPÁWA', 'EU SEI QUE ESTÁS TRISTE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PORAKÉ', 'PORAQUÊ', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (944, 'OPOROSOKÁ PORAKÉ', 'PORAQUÊ MATA GENTE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PORO', 'PREF. GENTE, OUTRO(S) (HUMANOS)', 4);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (945, 'APORONOPÓ WETÓTA', 'EU VIM BATER EM OUTRO (OU EM GENTE)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (945, 'OPORONOPÓWA´ÉRAMO ORÉ', 'NÓS (EXCL.) VIEMOS BATER EM TODOS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (945, 'APOROO´Ó', 'EU MORDO GENTE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (945, 'APOROASOWÓNETÉ', 'ELE GISTA DE ABRAÇAR GENTE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (945, 'APOROO´ÓETÉ', 'EU GOSTO DE MORDER GENTE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (945, 'ÓTA YPÝ IPOROPIHÓMI', 'ELE CHEGOU BELISCANDO GENTE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (945, 'ÓTA YPÝ IPOROSOKÁJ', 'ELE CHEGOU MATANDO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POROAPÓKATO', ' IB TRATAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (946, 'OPOROAPÓKATÓWA´É', 'O QUE É DOUTOR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PORO´Á', '. IB GRÁVIDA, PRENHA', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (947, 'IPORO´Á', 'ELA ESTÁ PRENHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (947, 'IPORO´Á POTÁ', 'ELA VAI FICAR PRENHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (947, 'EPORO´Á', 'FIQUE PRENHA!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (947, 'NÉ PORO´Á PA', 'VOCÊ ENGRAVIDOU?');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PORONGETÁ', 'VINTR IB CONVESAR, FALAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (948, 'SAPORONGETÁ', 'VAMOS CONVERSAR!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (948, 'RAKOKWEHÉ APORONGETÁ WEKÁ KATARÍNA WÉ APORONGETÁ WEKÁ APORONGETÁ RAKOKWEHÉ WEKÁ KATARÍNA PÉ WE PAKASÁ ROPÍ', 'FAZ TEMPO EU FALAVA À TOA PARA CATARINA, EU FALAVA, FAZ TEMPO PARA CATARINA, LÁ PELO PACAJÁ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PORONGETÁETÉ', ' CONVERSAR MUITO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (949, 'OPORONGETÁETÉ', 'ELE CONVERSOU MUITO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POROPYTÉT', 'VINTR CHUPAR GENTE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (950, 'ORÉPASÉKWERA', 'NOSSO EX-PAJÉ CHUPAVA (CURAVA) GENTE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PORORÉ', 'ENXADA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (951, 'IPORORÉ', 'ENXADA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (951, 'SÉ PORORÉ', 'MINHA ENXADA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PPOROSE´ÉMAMÁT', 'VINTR RECLAMAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (952, 'OPOROSE´ÉMAMAN', 'ELA RECLAMAVA MUITO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (952, 'ÓN OPOROSE´ÉMAMÁTA', 'ELE VEIO RECLAMANDO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POSOROKÁ', 'VINTR IB MATAR GENTE', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (953, 'OPOROSOKÁWA´É', 'O QUE MATA GENTE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POSÉ', ' IB ARRASTAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (954, 'EPOSÉEMÉ', 'NÃO ARRASTE!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (954, 'APOSÉ AHÁ OSEMÍNA', 'EU ME ARRASTO PARA ME ESCONDER');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POTÁ, TA', 'PART.AST PROJETO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (955, 'MO PA SAKÁ POTÁ', 'ONDE NÓS VAMOS ESTAR?');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (955, 'KA´Á PYPÉ PANÉ AHÁ N AHÁIHI', 'EU IA PARA A ROÇA, MAS NÃO FUI');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (955, 'APÝ POTÁ', 'EU VOU APITAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (955, 'IPIIPÍWA´É OKARÓ SÉ RÁNGA PYPÉ', 'OS MENINOS QUE SÃO PEQUENOS VÃO COMER NA MINHA CASA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POTARETÉ', 'GASTAR MUITO, AMAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (956, 'APOTÁRETÉ', 'EU O AMO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POTÁT', 'QUERE, GOSTAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (957, 'OROPOTÁN NÉ ROHÁWA', 'QUEREMOS TUA VINDA, QUEREMOS QUE VOCÊ VENHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (957, 'APOTÁN NÉ ATÁWA', 'EU QUERO TUA ANDADA, EU QUERO QUE VOCÊ ANDE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (957, 'APOTÁN NÉ SEKYÝJNÁWA', 'EU QUERO TUA MORTE, EU QUERO VOCÊ MORRA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (957, 'APOTÁN NÉ SE´ENJA', 'EU QUERO TUA FALA, EU QUERO QUE VOCÊ FALE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (957, 'APOTÁRETÉ NÉ ATÁWA', 'EU QUERO QUE TU A, EU GOSTO DE TEU ANDAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (957, 'EOKWÉ AHÁ POTÁTA', 'EU ESTOU QUERENDO IR LÁ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (957, 'AMA´ÉAPÓPOTÁN', 'EU QUERO TRABALHAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (957, 'EREPOTÁN EPORAHAJTÁWA', 'VOCÊ QUER DANÇAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (957, 'EPOTÁREMÉ', 'NÃO GOSTE!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (957, 'EREPOTÁPO', 'NÃO AME!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POTÁT', 'ACEITAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (958, 'APOTAN WESWOPÉ', 'EU ACEITO (O CONTRATO) (O OBJETO)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POTÍ', ' DEFECAR', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (959, 'OPOTÍ', 'ELE DEFECOU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (959, 'IPOTÍPÁWAMO AHÁ', 'QUANDO ELE ACABAR DE CAGAR EU VOU EMBORA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (959, 'ÓN OPTÍW', 'ELE CHEGOU CAGANDO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (959, 'PESÉ PESEPOTIW', 'PODEM DEFECAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (959, 'SÉ REPOTI´ÝWA', 'MEU LUGAR DE DEFECAR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POTI´Á', 'PEITO', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (960, 'TYRÓPOTÍA', 'CAMISA, BLUSA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POWE´ÉNG', ' APONTAR, INDICAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (961, 'OPOWE´ÉNG', 'ELE APONTPU OU ELE INDICOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POWE´ÉNG', 'ACENAR, DAR SINAL', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (962, 'OPOWE´ENG ÓRA AKÁ', 'ELE VEIO ANDANDO DANDO SINAL');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (962, 'SÉ PEPOSÁJ ISOPÉ', 'EU ACENEI (COM A MÃO) PARA ELE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (962, 'ÓN APOWE´ENGA', 'ELE VEIO DANDO SINAL');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (962, 'APOWE´ENGA', 'DAR SINAL CHAMANDO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POWÓN', 'FIAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (963, 'APOWÓN TA', 'EU VOU FIAR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('POWYWÝT', 'AO LADO DE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (964, 'SÉ POWYWÝRI ITÓWI', 'ELE ESTÁ DO MEU LADO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÝ', 'QUEIMAR', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (965, 'APÝ POTÁ', 'ELE QUEIMOU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (965, 'N OAPÝIHI', 'ELE NÃO QUEIMOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÝ', 'APITAR, TOCAR (INTRUMENTO)', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (966, 'APÝ POTÁ', 'EU VOU APITAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (966, 'EREPYTÁ APÓ TAKWÁRA', 'NÃO TOQUE TAQUARA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÝ', 'SOPRAR', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (967, 'OPÝ', 'ELE SOPROU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (967, 'APÝ KANÝSA IMOWÉPA', 'EU SOPREI A VELA PARA APAGÁ-LA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÝ', 'PÉ', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (968, 'SÉ PÝA HAHÝ NO', 'MEU PÉ DÓI DE NOVO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÝ', 'INTERIOR', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (969, 'SÉ PYWÓ', 'PRÓXIMO A MIM');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (969, 'OKWÁM NÉ PÝWO', 'ELE PASSOU POR TI');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYEMÓN', 'FRIEIRA', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (970, 'SÉ PYEMÓNA', 'MINHA FRIEIRA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (970, 'IPYEMÓNA', 'FRIEIRA DELE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYEROSÓN', '. IA ESCORREGAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (971, 'SÉ PÝEROSÓN', 'EU ESCORREGUEI');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (971, 'SÉ PYEROSÓN A´ÉRAMO A´ÁN WERÉ', 'EU ESCORREGUEI E QUASE CAÍ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (971, 'NÉ PYEROSÓN A´ÉRAMO ERE´ÁN WERÉ', 'VOCÊ ESCORREGOU E QUE CAIU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (971, 'N OPIEROSÓNIHI', 'ELE NÃO ESCORREGOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYHÁ', 'ESPICHAR, ESTICAR, DESAMASSAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (972, 'APYHÁ POTÁ', 'EU VOU ESPICHAR (ALGO)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (972, 'OPYHÁ', 'ELE DESAMASSOU (ALGO)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYHÁT', 'TECER REDE DE ALGODÃO OU DE ENVIRA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (973, 'APYHÁN', 'EU TEÇO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (973, 'AKWAHÁM TOPÁWA IPIHÁTA', 'EU SEI TECER REDE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (973, 'N APYHÁRIHI', 'EU NÃO TECI');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYHÉJ', 'LAVAR O INTERIOR DE ALGO, LAVAR PRATO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (974, 'APYHÉJ TA', 'EU VOU LAVAR PRATO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (974, 'APYHÉJ TA PARATÓA', 'EU VOU LAVAR PRATO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (974, 'IKÓMA SOWÉ APYHÉJ TA', 'EU VOU LAVAR SÓ O BOLSO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYHEJTÁP', 'INSTRUMENTO OU LUGAR DE LAVAR COISAS', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (975, 'MA´É PYHEJTÁWA', 'VASILHAS, BOMBRIL');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYHÝ(K)', 'PEGAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (976, 'ERÉ IPYHÝKA', 'PODE PEGAR!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (976, 'PESÉ IPYHÝKA', 'PODEM PEGAR!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (976, 'APYHÝNG TA TÝRÓA A´É EREESÁ A´É', 'EU VOU COMPRAR O VESTIDO QUE VOCÊ VIU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (976, 'AKWAHÁM IPYHÝKA IPIRÁ', 'EU SEI PESCAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (976, 'IPIRÁ OPYHÝK HEHÝTA I´Ó', 'ELE FOI, PEGOU O PEIXE, ASSOU E COMEU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (976, 'IPIRÁ ANOHÉM HEHÝTA I´Ó', 'EU FUI, PEGUEI O PEIXE E COMI');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (976, 'EPÝHÝNGEME', 'NÃO PEGUE!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (976, 'HAHÝA OPYHÝNG', 'ELE PEGOU DOENÇA DO OUTRO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (976, 'OHÝA RAHÝA OPYHÝNG', 'ELE PEGOU DOENÇA DA MÃE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (976, 'HATYEÓMA KÉ EPYHÝ', 'PEGUE, POR FAVOR, UMA ESPOSA PARA ELE!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYHÝNGOKÁT', 'FAZER PEGAR, COMPRAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (977, 'TYRÓA APYHÝNGOKÁN TA WESÉOPÉ', 'EU FAÇO ELE COMPRAR PARA MIM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYHÝPYHÝNK', 'APALPAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (978, 'OPYHÝPYHÝNG', 'ELE O APALPOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYIKÉ', 'A CURVA DO PÉ (LADO)', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (979, 'IPYOKÓ', 'A CURVA DO PÉ DELE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÝK', 'EMBURALHAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (980, 'AHÁ IPÝKA', 'ELE FOI PARA EMBRULHÁ-LO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYKÁ', 'TECER', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (981, 'TOPÁWA PANÉ APYKÁ OPTÁ', 'EU TNEHO VONTADE DE FAZER REDE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYKÁPYKÁP', 'BORBOLETA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (982, 'PYKÁPYKÁWA', 'BORBOLETA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYKÓJ', 'TORRAR (FARINHA)', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (983, 'OPYKÓJ O´ÍA', 'ELES TORRARAM FARINHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (983, 'N OKWAHÁWIHI IPYKÓJTA', 'ELE NÃO SABE TORRAR FARINHA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYKO´Í', 'ROLINHA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (984, 'PYKO´ÍA', 'É ROLINHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (984, 'ACHÝN TA NÉ OPÉ PYKO´ÍA', 'EU VOU ASSAR ROLINHA PARA VOCÊ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYKY´ÝRA', 'IRMÃ MAIS NOVA DE MULHER', 4);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (985, 'SÉ PYKY´ÝRA', 'MINHA IRMÃ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PY´Á', 'FIGADO', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (986, 'SÉ PY´Á', 'MEU FIGADO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (986, 'MY´Á', 'FIGADO HUMANO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PY´ÁAHÝ', '. IB DOR DE BARRIGA, DIARRÉIA', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (987, 'IPY´AHÝ', 'ELE TEM DOR DE BARRIGAA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (987, 'HAHÝ IPY´Á', 'O FIGAFO DELE DÓI (ELE TEM DOR DE BARRIGA)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PY´APÍT', 'VENTRE', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (988, 'SENÉ PY´ÁPÍRA', 'NOSSO VENTRE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (988, 'MY´ÁPÍRA', 'VENTRE HUMANO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (988, 'SEPY´APÝRA', 'MEU ABDÔMEM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÝNG', ' PARAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (989, 'AMÝNA PÝNGAMO SAMA´É APÓ POTÁ', 'DEPOIS QUE A CHUVA PARAR NÓS VAMOS TRABALHAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (989, 'AMÝNAMÓ ASÁN TÁ', 'DEPOIS DA CHUVA EU VOLTO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÝOHÓ', 'DEDÃO DO PÉ', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (990, 'IPÝOHÓA', 'O DEDÃO DO PÉ DELE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÝPÁP', 'QUEIMAR TUDO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (991, 'OPÝPÁM', 'ELE QUEIMOU TUDO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYPÁT', 'RASTRO, PEQADA', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (992, 'IPYPÁRA', 'RASTRO DELE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (992, 'PÉE ROPÍMYSÁRA', 'NO CAMINHO TEM RASTRO DE GENTE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYPÉ', 'POST IA DENTRO, EM', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (993, 'WATÝ PYPÉ IMANÁJ', 'ELE MANDOU PARA DENTRO DA BOCHECHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (993, 'IHÁRA PYPÉ ASÁN', 'DENTRO DO BARCO EU VIM');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (993, 'IHÁRA PYPÉ PESÁN', 'DENTRO DO BARCO VOCÊS VIERAM');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (993, 'AATÍ POTÁ TOPÁWA NÉ OPÉ T EREKÉR IPYPÉ', 'EU VOU AMARRAR A REDE PARA VOCÊ DORMIR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (993, 'IHÁRA PYPÉ ITÓRI', 'DENTRO DO BARCO ELE VEIO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYPÓ', 'PISADA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (994, 'SÉ PYPÓA', 'MINHA PEGADA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (994, 'IPYPYPÓA', 'PISADA DELE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (994, 'MYPÓA AENÓM', 'EU OUVI PISADAS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYPÓT', 'COZINHAR, FEVER', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (995, 'SYTÝNGA OPYPÓN', 'A BATATA COZINHOU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (995, 'OPYPÓN ´ÝA', 'A ÁGUA FERVEU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (995, 'N OMOPIPÓRIHI', 'NÃO FERVEU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (995, 'AKWAHÁM IPYPÓHÁWA', 'EU SEI QUE ELA FERVEU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYPÝM', '. IA DOLORIDO', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (996, 'SÉ PÁ PYPÝM', 'MINHA MÃO DÓI');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYPÝNG', 'SOCAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (997, 'EPYPÝNGEME', 'NÃO SOQUE!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (997, 'AKWAHÁM YPYPYNÁWA', 'EU SEI QUE ELE ENFIOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYPYTÉT', 'SOLA DO PÉ', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (998, 'SÉ PÝPYTÉR', 'MINHA SOLA DO PÉ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYRO´Ó', 'UMBIGO', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (999, 'NÉ PYRO´ÓA', 'SEU UMBIGO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (999, 'SÉ PYPÓA', 'MEU UMBIGO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (999, 'MYRO´ÓA', 'UMBIGO HUMANO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYROMÝT', 'PISADO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1000, 'IPYROMÝRA', 'O PISADO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYRÓN', '. IA INCHADO, FERIDO (DO PÉ)', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1001, 'IPYRÓN', 'ELE ESTÁ INCHADO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYRÓNG', 'PISAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1002, 'YWÝW IPYRÓNGI', 'PELA TERRA ELE ANDA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1002, 'EREPYRÓNG YWÝW', 'VOCÊ ESTÁ DESCLÇA NO CHÃO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1002, 'EREPYRÓNG APÓ', 'NÃO PISE AQUI');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYRONGÁT', 'PISADOR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1003, 'HEHÉ IPRONGÁRA', 'O PISADOR DELE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYRYKYTI´ÍA', 'RIM', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1004, 'NÉ PYRYKYTI´ÍA', 'TEU RIM');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1004, 'MORIKITI´ÍA', 'RIM HUMANO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYRYRÝM', ' RODOPIAR', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1005, 'EREPYRYRÝMAPO', 'NÇAO RODOPIE!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1005, 'APYRYM TA', 'EU VOU RODOPIAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1005, 'N OPYRYRÝMIHI', 'ELE NÃO RODOPIOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYRYRÝNG', ' ABRIR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1006, 'AMANYSÓA OPYRYRÝNG', 'O ALODÃO ESTÁ ABRINDO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYSO´Ó', 'OSSO DA JUNTA DO PÉ', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1007, 'NÉ PYRO´ÓA', 'TUA JUNTA DO PÉ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÝT', '. IA CRU', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1008, 'IPÝN', 'ESTÁ CRU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1008, 'ÍPYR', 'ESTÁ CRU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1008, 'N AIPÝRIHI', 'ELE NÃO ESTÁ CRU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PÝT', ' PARTE JUNTO DE (MAIS PRÓXIMA)', 4);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1009, 'AMONGÉ IMÓTA WESEPÝRI', 'EU FIZ ELE ENTRAR JUNTO COMIGO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1009, 'ASÁN NÉ PÝRI WETORÝWETÉRAMO', 'EU VIM JUNTO DE VOCÊ FELIZ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYTÁ', 'TOCAR (INSTRUMENTO)', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1010, 'EPYTÁ TAKWÁRA', 'TOQUE TAQUARA!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1010, 'ERÉPYTARAPÓ TAKWÁRA', 'NÃO TOQUE TAQUARA!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYTÁ', ' FICAR, PERMANECER', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1011, 'EROROPÝTÁPOTÁ PA', 'QUERES FICAR COM ELA (MINHA FLECHA)?');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1011, 'AROYTÁPOTÁ WESEPÝRI', 'EU QUERO QUE ELA FIQUE COMIGO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1011, 'EREPYTÁRAPO', 'NÃO PARE!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1011, 'NÉ PYRTÁRAMOAMO OROPOTÁN', 'SE VOCÊ FICASSE EU GOSTARIA DE VOCÊ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYTÁ', 'CALCANHAR', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1012, 'IPYTÁ', 'O CALCANHAR DELE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1012, 'MYTÁ', 'CALCARNHAR HUMANO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYTÁPEHÓM', 'TENDÃO DE AQUILES', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1013, 'IPYTÁPEHÓMA', 'O TENDÃO DE AQUILES DELE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYTÉRIPEWÁT', 'O QUE E DO MEIO', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1014, 'IPYTÉRIPE WÁRA', 'ELE É O QUE É DO MEIO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYTÉT', 'CHUPAR, BEIJAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1015, 'OPYTÉN', 'ELE CHUVOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYTÉT', 'MEIO', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1016, 'SÉ REKÓ PYTÉRYPE I´ÓMI', 'ELE ESTÁ NA MINHA FRENTE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1016, 'OWEWÓJ ´YPYTÉRYPE', 'ELE BOIA NA ÁGUA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1016, 'N I´APYTÉHÁWIHI', 'NÃO TEM PELO NO MEIO DA CABEÇA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1016, 'KA´Á PYTÉRIPE HEKÁJ', 'NO MEIO DO MATO ELE ESTAVA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYTO´Ó', 'DESCANSAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1017, 'O´ÁM ÓPA OPOTO´Ó', 'ELE DESCANSA DEITADO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1017, 'APYTO´Ó', 'EU DESCONSO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYTYWÓ', 'AJUDAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1018, 'APYTYWÓ POTÁ', 'EU VOU AJUDÁ-LO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYWAKÝNG', 'DEDO DO PÉ', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1019, 'NÉ PYWAKÝNGA', 'SEU DEDO DO PÉ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYWAPÉ', 'UNHA DO PÉ', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1020, 'SÉ PYWAPÉ', 'MINHA UNHA DO PÉ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYYKÁP', 'LUGAR OU INSTRUMENTO DE PEGAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1021, 'WYRÁ PYYKÁWA', 'ARMADILHA PARA PEGAR PASSARINHO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1021, 'SEROTÍA PYYKÁWA', 'ARMADILHA DE POMBA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYYKÁT', 'AGARRADOR, PEGADOR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1022, 'YWÁ PYYKÁRA', 'PEGADOR DE BOLA, GOLEIRO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYYKÁW', 'LUGAR OU INSTRUMENTO DE PEGAR PU COMPRAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1023, 'MA´É TYRÓA PYYKÁWA', 'LOJA (DE ROUPAS)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1023, 'IPIRÁ PYYKÁWA', 'MALHADEIRA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYYPÉ', 'ESTEDER, ARRUMAR, ALINHAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1024, 'EPYYPÉ INÓNGA', 'ARRUME BEM ARRUMADO!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1024, 'APYYPÉ', 'ESU ESTENDI');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1024, 'AKWAHÁM ENÉ IPYYPÉTÁWA', 'EU SEI QUANDO VOCÊ ARRUMA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('PYYRÓ', 'SAPATO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1025, 'SÉ PYYRÓA', 'MEU SAPATO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1025, 'MYYRÓA', 'SAPATO(DE GENTE)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1025, 'EREMANÉWAPO MYYROA', 'NÃO CALCE SAPATO!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SA', 'PREF.PESS NÓS INCL', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1026, 'SAHÁ POTÁ', 'NÓS VAMOS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1026, 'SA´ÁN WEREHÉ', 'NÓS QUASE CAIMOS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAE´ÓM', 'BARRO DE CERÂMICA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1027, 'ANOHÍ SAE´ÓMA', 'NÃO TEM BARRO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1027, 'SÉ SAE´ÓMA', 'MINHA CERÂMICA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAHÓ', 'CANHOTO', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1028, 'NÉ SAHÓ', 'TU ÉS CANHOTO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1028, 'OSAHÓ KATÝ IAPÓJ', 'ELE FAZ COM BRAÇO ESQUERDO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1028, 'SÉ SAHÁ', 'EU SOU CANHOTO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1028, 'ISAHÓ', 'ELE É CANHOTO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAHÓK', ' TOMAR BANHO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1029, 'PESÉ PESESAHÓKA', 'PODEM TOMAE BANHO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1029, 'TOARÉ RÓRAMO OROSAHÓNGTA ARAHÁ', 'QUANDO TOARÉ CHEGAR, NÓS VAMOS NNOS BANHAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1029, 'SÉ SAHOKÁWA', 'MEU LUGAR DE BANHAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1029, 'ESAHÓPÁPA ERESÁN', 'DEPOIS DE BANHAR VOCÊ VEIO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1029, 'ESAHÓNG EHÁ', 'TOME BANHO!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1029, 'ESAHÓNGEME', 'NÃO BANHE!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAHÝ', 'LUA', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1030, 'SAHÝA IKAMORÉ', 'LUA NOVA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1030, 'SAHÝA IWISÉ', 'LUA CHEIA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1030, 'SAHÝA OKÉ AHÁ AKÁ', 'A LUA VAI DIMINUINDO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1030, 'IHÉMAMÉRAMO (SAHÝA)', 'LUA NOVA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1030, 'HEAKWAWÉRAMÉ', 'QUARTO CRESCENTE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1030, 'SAHÝTATÁPE WÁRA', ' O QUE É DAS ESTRELAS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAKAMÍA ', 'JACAMIM', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1031, 'SAKAMIA WA´ ÝNGAMO ISE´ÉNG SAKAMÍA', ' O JACAMIM ARREMEDA O OUTRO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAKARÉTÍNG ', 'ESPÉCIE DE JACARÉ ', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1032, 'A´Ó SAKARÉTÍNGA', ' EU COMO JACARÉ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAKARÉWASANGÁP ', ' SERROTE', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1033, 'ISAKARÉWASANGÁWA ', 'SERROTE DELE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAKATÓ ', 'LIMPO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1034, 'SAKATÓA ROPÍ ', 'PELO LIMPO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1034, 'SAKATÓPE IKWÁWI OSENÓNGA', ' ELES ESTÃO DEITADOS NO LIMPO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAKATÓPÉ ', 'SALIENTE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1035, 'ISAKATÓPÉ HÓSA', ' O DENTE DELE É SALIENTE OU ELE É DENTUÇO ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1035, 'HÓSA ISAKATÓPÉ', ' ELA É DENTUÇA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAKÓ ', 'JACU', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1036, 'SAKÓA WYRÁ SOWÉ HE´ÉRAMO', ' JACU É GOSTOSO COMO GALINHA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAKÓPÉM ', 'JACUPEMA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1037, 'SAKÓPÉMA OSE´ÉNG KO´ÉMTÁRAMO ', 'JACUPEBA CANTA DE MANHÃ CEDINHO (ANUNCIANDO O AMANHECER)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAKÓPETÍNG ', 'JACUTINGA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1038, 'SAKOPETINGA HE´ ÉRAMO ', 'JACUTINGA É GOSTOSO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAKYRÓN ', 'CIGARRA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1039, 'SAKYRÓNA OSE´ENGÁN OSEKÝJTA', ' CIGARRA CANTA E MORRE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SA´Á ', ' CHORAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1040, 'WEKOTÓNGAMO ASA´Á POTÁ ', 'SE VOCÊ ME FURAR EU VOU CHORAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1040, 'WENOPÓRAMO ASA´Á POTÁ ', 'SE VOCÊ ME BATER EU VOU CHORAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1040, 'ONOPÓRAMO ISA´ÁPOTÁRI ', 'SE BATEREM NELE, ELE VAI QUERER CHORAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1040, 'NẺ SA´Á´ÝMAMO AHÁ POTÁ ', 'SE VOCÊ NÃO CHORAR EU VOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SA´WÁT ', 'ONÇA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1041, 'SA´WÁRA PEESÁ', ' VOCÊS VIRAM A ONÇA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1041, 'SA´WÁRA KOIRÓNA ´ÝWA', ' NOME DE UMA CACHOEIRA?');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1041, 'SA´WÁRA KOIRÓNA ', 'CAJU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1041, 'SA’WÁRA KOIRÓN ’ÝWA', ' CAJUEIRO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1041, 'SA’WÁRA KOIRÓNANGÁWA', ' JAMBO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1041, 'SA’WÁRA ASOKÁ HERÓTA ', 'ONÇA, EU MATEI E TROUXE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SANI’Á ', 'MANDIM', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1042, 'ORO’ÓSETÉ SANI’Á ', 'NÓS GOSTAMOS DE COMER MANDIM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SANIPÁP ', 'JENIPAPO', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1043, 'SANIPÁWA PÓ ASEMOHÝM ', 'EU ME PINTO COM JENIPAPO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SANISÁ ', 'NOME PRÓPRIO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1044, 'SANISÁ KOSÁPO’ÍA KYWÝRA ', 'SANISÁ É IRMÃO DE KASAPOIA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SANÓ', ' ARANHA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1045, 'AKYYSÉJ SANÓA HÍ ', 'EU TENHO MEDO DE ARANHA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SANOAPÝT', ' ARANHA CARANGUEJEIRA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1046, 'SANÓAPÝRA OAPÓPÁM TA OSANOPYHÁ', ' A ARANHA CARANGUEJEIRA VAI FAZER SUA TEIA ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SANÓPYHÁ', ' TEIA DE ARANHA', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1047, 'SANÓAPÝRA OAPÓPÁM TA OSANOPYHÁ', ' A ARANHA CARANGUEJEIRA VAI FAZER SUA TEIA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAOTÍ ', 'JABOTI', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1048, 'SAOTÍA ', 'JABOTI');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1048, 'SAOTÍA REEWÉRYMÝNA ', 'CADÁVER VELHO DE JABOTI');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1048, 'SAOTÍA KARARÁ ', 'ESP. DE JABOTI DÁGUA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAOTÍWYKWÉT ', ' SINAL DA PELE', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1049, 'NÉ SAOTIWYKWÉRA', ' TEU SINAL');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAPARAHÍRA ', 'ESP. DE MEL BEM DOCE E BEM SUAVE', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1050, 'SAPARAHÍRA KONOMÍA REMI’ÓA', ' SAPARAHÍRA É COMIDA DE CRIANÇA (BEM NOVINHA)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAPEOHÁ', ' PIOLHO DE COBRA ', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1051, 'SAPEOHÁ HAHÝ OPOROSOKÁW', ' PIOLHO DE COBRA DÓI E MATA GENTE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SARAKATI’ÝP ', 'JARACATIÁ, MAMOIM', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1052, 'SARAKATI´ÝWA RÁNGA ', 'LARVA DO JARACATIÁ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SARATI´Í L ', 'PICAPAU', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1053, 'SARATI’ÍA ‘YWA OKOTÓNG ', 'PICAPAU FURA PAU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SARATÍKATÍNGA ', 'N LII ESP. DE PICAPAU AMARELO', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1054, 'SARATIKATINGA SARATITÁ O’Ó ', 'PICAPAU COME TAPURU DE PAU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SARATITÁ ', 'ESP. DE TAPURU DE PAU', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1055, 'SARATIKATINGA SARATITÁ O´Ó ', 'O PICAPAU COME TAPURU DE PAU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SARÍ ´AVÓ’', ' AVÓ', 4);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1056, 'SÉ SARÍA ', 'MINHA AVỚ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAROKÝNG ', ' COSTELAS, VIGA DE CASA', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1057, 'SÉ SAROKYNGA', ' MINHAS COSTELAS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1057, 'ISAROKÝNGA', ' COSTELA DELE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1057, 'ISAROKÝNGA', ' A VIGA DELA (DA CASA)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAROSÁJ ', 'ABRIR A BOCA', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1058, 'NÉ SAROSÁJRAPO', ' NÃO ABRA A BOCA!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1058, 'ESAROSÁSEME', ' NÃO ABRA A BOCA!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SASÉ ', 'IRMÃ DO PAI (EM RELAÇÃO AO HOMEM)', 4);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1059, 'SÉ SASÉ ', 'MINHA TIA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SASÓ ', 'ESP. DE MACACO', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1060, 'YPYTÓNOHÓRAMO ISE´ENGÁRI SASÓA ', 'O SASÓA CANTA DE MANHÃ CEDINHO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SÁT ', 'DONO', 4);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1061, 'MORAHÁYTÁWA SÁRA', ' DONO DA FESTA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1061, 'AWATÍA SÁRA ', 'DONO DO MILHO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1061, 'MA´É SÁRA', ' DONO DA COMIDA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1061, 'ISÁRA', ' DONO DELE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1061, 'SA´WÁRA SÁRA ', 'DONO DO CACHORRO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1061, 'ISÁRAMÉ', ' ELE JÁ É O DONO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1061, 'ISÁRÓMWÉRA ', 'IA SER O DONO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1061, 'ISÁRÉRA ', 'EX-DONO DELE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1061, 'ISÉ ISÁRAMO POTÁ ', 'EU VOU SER DONO DELE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SÁT ', ' VIR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1062, 'ESÁN KÉ NO ', 'VENHA DE NOVO!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1062, 'ERESÁN TÁ NO', ' VOCÊ VAI VIR DE NOVO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1062, 'NÉ RÓRANMO ASÁN TA ', 'QUANDO VOCÊ VIER EU VENHO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SATÁ  ', 'BANANA', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1063, 'SÉ SATÁ OPÁM ', 'MINHAS BANANAS ACABARAM');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1063, 'SAPE´Á POTÁ SERESATÁ ', 'NÓS VAMOS SEPARAR NOSSAS BANANAS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SATATÝP N LLI ', 'BANANAL', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1064, 'SATATÝWOHÖPE IHÁJ ', 'ELE FOI NO BANANAL GRANDE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SATÉWONGÍ ', 'CERTO CARRAPATO PEQUENO', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1065, 'SATÉWONGIA RIPÓ OPOROPÍ ', 'SATÉWONGIA PICA GENTE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SATÉWOPÉP ', 'CERTO CARRAPATO GRANDE E CHATO', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1066, 'ASOKÁ SATÉWOPÉWA ', 'EU MATO SATÉWOPÉWA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SATI’Ó', ' CARAPANĀ', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1067, 'SA´WÁRA RAWÁ OAPÝ SATI’ÓRAMO', ' ELE TRANSFORMOU AS CINZAS DA ONÇA EM CARAPANÃ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SATIMÓNG  LA', ' BALANÇAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1068, 'SÉ APEKOMÍA OSATIMÓNG', ' MINHA ÚVULA BALANÇA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1068, 'OROSATIMÓNG ', 'EU BALANÇO VOCÊ NA REDE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1068, 'ASATIMÓNG ', 'EU ME BALANÇO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1068, 'AESÁ NÉ SATIMONGÁWA ', 'EU VI VOCÊ SE BALANÇAR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAUTIPIYTA NOME', ' ABELHA QUE PRODUZ POUCO (SÓ NO LOCAL DO NINHO)', 2);
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAWÁ PART.ALET', ' DUBITATIVO', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1070, 'SÉ TYARAHÝ SAWÁ RIPÓ', ' PARECE QUE EU ESTOU COM FOME');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1070, 'AKOMA´É SAWÁ RIPÓ ', 'PODE SER HOMEM (QUANDO ALGUÉM BATE A PORTA COM FORÇA)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1070, 'A´É SAWÁ RIPÓ ', 'PARECE QUE SIM (NÃO TENDO CERTEZA)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1070, 'A´É RIPÓ SAWÁ ', 'NÃO TENHO CERTEZA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAWÁRANGÁP  ', 'GATO, PARECIDO COM ONÇA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1071, 'SAWÁRANGÁWA ', 'GATO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAWASÝT', ' ESCORPIÃO', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1072, 'HETÁ SAWASÝRA ', 'TEM MUITO ESCORPIÃO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAWATARÁNG', ' ARIRANHA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1073, 'SAWATARÁNGA', ' É ARIRANHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1073, 'SOSOKÁ RA´É SAWATARÁNGA ', 'ELE MATOU A ARIRANHA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAWAWÁSOHÓ ', 'VACA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1074, 'SAWAWÁSOHÓA ', 'VACA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1074, 'SAWAWÁSOHÓA RYRÓA ', 'CURRAL');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1074, 'SAWAWÁSOHÓA SÁRA ', 'FAZENDEIRO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1074, 'SAWAWÁSOHÓA KAMÝ A´Ó ', 'EU TOMO LEITE DE VACA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SAWEWÝT ', 'ARRAIA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1075, 'SAWEWÝRA ', 'ARRAIA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1075, 'EWETÁ ISOKÁW SAWEWÝRA ', 'ELE MATOU MUITAS ARRAIAS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SE- ', 'PREF. REFLEXIVO', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1076, 'OROMÓN WESEPÝRI ', 'EU FIZ VOCÊ VIR COMIGO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1076, 'MO´ÝRA WESCOPÉ IAPÓRAMO APYHÝNG TA NÉ OHÍ ', 'SE VOCÊ FIZER COLAR EU PEGO DE VOCÊ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1076, 'WESEOPÉ TYRÓA IMÓRAMO AAPÓ POTÁ ARAPETINGA NÉ OPÉ ', 'SE VOCÊ ME DER ROUPA EU FAÇO COCAR PARA VOCÊ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SÉ ', 'PRON.DEP EU/MEU', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1077, 'SÉ MEMÝRA OO´Ó NÁSA', ' A COBRA MORDEU MEU FILHO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1077, 'WESÉPE´ÁWA ARÓN WEHÁ ', 'EU FUI PARA TRAZER LENHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1077, 'SÉ MONGÉRYPÝ', ' ME FEZ DORMIR PRIMEIRO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1077, 'SÉ ROWÉESÁNGIPE E´ÝJNA ', 'TU ESTÁS SENTADA OLHANDO PARA MIM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEAKÝNOPÓ ', 'BATER A CABEÇA', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1078, 'OSEAKYNOPÓ', ' ELE BATEU SUA CABEÇA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEAMAYWÝNG ', ' ENFORCAR-SE', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1079, 'OSEAMAYWÝNG ', 'ELE SE ENFORCOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEAMONGETÁ ', ' PENSAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1080, 'ASEAMONGETÁ WETOÍNA AHÁPOTÁ WEAWÝRIPE WESÁ ', 'EU ESTAVA PENSANDO EM IR PARA A MINHA CASA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEAPEKÁK ', 'ENCOSTAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1081, 'N OSEAPEKÁNGIHI ', 'ELE NÃO SE ENCOSTOU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1081, 'AESÁ ISEAPEKÁKÁWA ’ÝWA RÉ ', 'EU O VI ENCOSTADO NO PAU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1081, 'ESEAPEKÁNG E’ÓMA ’ÝWA RÉ ', 'FIQUE OUVINDO MÚSICA EM PÉ NO PAU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEAPIRAMÓ  ', 'BANHAR-SE COM FOLHA CHEIROSA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1082, 'ASEAPIRAMÓ POTÁ ', 'EU VOU ME MOLHAR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEAPIRÉJ VINTR IA', 'LAVAR-SE A CABEÇA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1083, 'ASEAPIRÉJ TA ', 'EU VOU ME LAVAR A CABEÇA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEAPYAKÁ ', 'PENSAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1084, 'ESEAPYAKÁEME', ' NÃO PENSE!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEAREKÁ ', 'SENTIR SAUDADES, SENTIR TRISTEZA, ENTRISTECER-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1085, 'ERESEAREKÁRAPO', ' NÃO SINTA SAUDADES!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1085, 'ASEAREKÁ RAKÁ WEKÁ NÉ REHÉ', ' EU ME ENTRISTECI COM VOCÊ (PORQUE VOCÊ NUNCA MAIS APARECEU)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEASÓN ', 'ESCORRER (LÍQUIDO)', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1086, 'ESEASÓN ', 'ESCORRA!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEAWÁM  ', 'AFOGAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1087, 'OSEAWÁM ', 'ELE AFOGOU-SE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEAWYKÝ  ', 'PENTEAR-SE OS CABELOS', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1088, 'ESEAWYKÝEME ', 'NÃO PENTEIES O TEU CABELO!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1088, 'ASEAWYKÝ ', 'EU VOU ME PENTEAR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEE VERBO', ' CHORAR ', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1089, 'ESE´ENANG ', 'NÃO CHORA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEEKWARÉJ VINTR LA', ' LAVAR-SE OS OLHOS, LAVAR-SE O ROSTO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1090, 'ASECKWARÉJ.TA ', 'EU VOU LAVAR MEUS OLHOS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1090, 'SEEKWARÉJ', ' EU LAVEI MEU ROSTO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEESÁK  ', 'VER-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1091, 'ASESÁ(NG) ´ÝNESAKÁWA RÉ', ' EU ME VI (NO ESPELHO)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1091, 'SEESÁNGOKÁT ', ' FAZER-SE VER, MOSTRA-SE ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1091, '‘ÁJ ITÓRI OSEESÁNGOKATA TÉ SOWÉ NO ‘', 'ELA VEIO SÓ SE MOSTRAR PARA MIM DE NOVO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEHÉ ', 'PART.EPIST DISQUE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1092, 'ASEMOMÁM SEHÉ ', 'DISQUE ELE ACIDENTOU-SE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1092, 'MEREJME IHÁJ SEHÉ ', 'DISQUE ELE FOI A BELÉM');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1092, 'HEMIRIKÁ I’Í SEHÉ AKÁ ISOPE WYNGÉ ', 'DISQUE ELA ESTÁ NANORANDO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1092, 'ROSA ÓN TA I’Í SEHÉ ISOPÉ', ' DISQUE ROSE VIRÁ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1092, 'MARIA OETÝM TA SEHÉ OMÉNA I´Í WYNGÉ ', 'DISQUE MARIA VAI ENTERRAR O MARIDO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1092, 'AMOTÉ AMÝNYME SERÓRA NO HERÓNTÁRI I’Í SEHÉ OMEMÝRA', ' DISQUE FUTURAMENTE ELA VAI TRAZER O OUTRO FILHO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1092, 'ÓN I´Í SEHÉ ', 'ELE CHEGOU, DISQUE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEHÉN  ', 'DERRAMAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1093, 'AKWAHÁM ISEHENAWÓNA', ' EU SEI QUE ELA VAI SE DERRAMAR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEHEN ', 'ESCORRER', 6);
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEHÝM ', ' ENXUGAR-SE (CORPO)', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1095, 'ESEEHÝM', ' ENXUGUE-SE!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEKAMÍRAMÉ ', 'NOME PRÓPRIO ', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1096, 'ORÉ MOROYRÓA SEKAMÍRAME', ' SEKAMIRAMÉ É NOSSO CHEFE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEKARÝJ ', ' ARRANHAR-SE', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1097, 'OSEKARÝJ', ' ELE ARRANHOU-SE (NA PONTA DO PAU)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEKÝJ', '  FENECER, DESMAIAR ', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1097, 'ISEKÝJSAHIN', ' ELE MORRE, CADUCA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1097, '‘ÁNGA IPOPÉ PA ISEKÝJ ', 'FOI DENTRO DA CASA QUE ELE MORREU?');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEKÝJTÁP ', ' MORTE', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1098, 'AKWAWE´ÉNG ISOPÉ ISEKÝJTÁWA', ' EU O FIZ SABER SOBRE A MORTE DO OUTRO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEKYJTAWÓM ', ' FUTURA MORTE', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1099, 'NÉ SEKYJTAWÓMA', ' TUA FUTURA MORTE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEKÝMOPÉN  ', 'QUEBRAR-SE OS OSSOS', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1100, 'OSEKÝMOPÉNWA´É AHÁ KONOMÍA ', 'O MENINO QUE QUEBROU O OSSO FOI (PARA TUCURUI)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEKÝTAWÉT ', ' MORTE PASSADA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1101, 'ISEKÝJTAWÉRA ', 'A MORTE PASSADA DELE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEKWAPETÝMAWÁNG ', ' ABRIR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1102, '‘ÁNGA OSEKWAPETÝMAAWÁNG ', 'A PORTA SE ABRIU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEKWEHÉ PAR.EPIST', ' TEMPO MITICO ', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1103, 'ÓN SEKWEHÉ HOWAKÉ ', 'VEIO PARA JUNTO DELE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1103, 'A´ÉRAMO SEKWEHÉ OESÁ SA´WÁRA ROPI´Á', ' ENTÃO ELE VIU O OVO DA ONÇA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SE´ÁT  ', 'JUNTAR-SE', 4);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1104, 'OROSE´ÁN ', 'NÓS NOS JUNTAMOS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1104, 'OKWAHÁM OSOSE´ATÁWA ´', 'ELE SABE QUE NÓS NOS JUNTAMOS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1104, 'N OROSE´ARIHI ', 'NÓS NÃO NOS JUNTAMOS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SE´ÉKASÝKASÝM ', ' GAGO', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1105, 'ISE´ ÉKASÝKASÝM ', 'ELE É GAGO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1105, 'NA ISE’ÉKASÝKASÝMIHI ', 'ELE NÃO É GAGO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SE´ÉMÁP ', ' FALAR TUDO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1106, 'WESE ´ÉMÁPA AHÁ POTÁ WEKÉTA', ' FALANDO TUDO EU VOU DORMIR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SE´ÉNG VINTR LA', ' FALAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1107, 'ISÉ AKWAHÁM WESE’ÉNGA N EREKWAHÁWIHI ENÉ ', 'EU É QUE SEI FALAR A MINHA LÍNGUA, VOCÊ NÃO SABE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1107, 'APOTÁN NÉ SE´ÉNGA ', 'EU GOSTO DE TUA FALA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1107, 'ASE ÉNGAMÉ ', 'EU FALEI AGORINHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1107, 'ASE’ÉNG TA RAMÉ ', 'EU VOU ACABAR DE FALAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1107, 'ASE’ÉNG TA MÍA REHÉ ', 'EU VOU FALAR JÁ, EM SEGUIDA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1107, 'ASE´ÉNG MÍA REHÉ ', 'FALAREI EM SEGUIDA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1107, 'SÉ SE´ÉNGAMO WETOÍNA SÉ ROPEHÝJ ', 'QUANTO MAIS EU FALAVA MAIS EU TINHA SONO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1107, 'ASE´ÉNG WETOINA ISOPÉ WERAHÁPOTÁROHÓ', ' EU ESTOU FALANDO (PORQUE) ELA QUER LEVAR MUITO (DA LÍNGUA)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1107, 'SA´WÁRA OSE´ÉNG', ' O CACHORRO LATE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SE´ÉNGAPÁP ', ' CANTAR TUDO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1108, 'OSE´ENGAPÁPA IHÁJ', ' DEPOIS DE CANTAR TUDO ELE FOI EMBORA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SE´ENGÁT  ', 'CANTAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1109, 'ASE´EGÁN ', 'EU CANTO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1109, 'NÉ SE´ENGÁRA ', 'TEU CANTO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1109, 'ORÉ SE´ENGÁRA ', 'NOSSA MÚSICA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1109, 'OKWAHÁWOWÉ OSÉ´ENGATA', ' ELE SÓ SABE CANTAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1109, 'ASÁN WESE´EYÁTA', ' EU CHEGUEI CANTANDO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1109, 'OSE´ENGÁN ÖTA', ' ELE VEIO CANTANDO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1109, 'OSE´ENGAN AHÁ OHÉMA ', 'ELE SAIU CANTANDO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SE´CNGAWÓM ', ' FUTURA FALA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1110, 'SÉ SE´ENGAWÓMA', ' MINHA FUTURA FALA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SE´ONGESÁT  ', 'VESTIR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1111, 'ERESE´ONGESÁNGAPO', ' NÃO SE VISTA!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1111, 'EREKWAHÁM ISÉ SÉ SE´ONGESATÁWA ', 'ELE SABE QUE EU VOU ME VESTIR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SE’ÝJ  ', 'COÇAR-SE', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1112, 'ERESE’ÝRAPÓ', ' NÃO SE COCE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1112, 'ASE´ÝJ ', 'EU ME COÇO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMÍM  ', 'ESCONDER-SE, FUGIR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1113, 'ASEMÍM TA', ' EU VOU ME ESCONDER');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1113, 'EOKWÉ ITÓRI AHÁ OSEMIWA´É ', 'LÁ VEM O FUGIDO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOARÁJ  ', 'BRINCAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1114, 'OSEMOARÁJ ', 'ELES BRINCAM');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1114, 'OROSEMOARÁJ TA ', 'NÓS VAMOS BRINCAR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOARAJTÁP ', ' BRINQUEDO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1115, 'KONOMÍA SEMOARAJTÁWA', ' BRINQUEDO DE CRIANÇA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOHÓN ', 'PINTAR DE PRETO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1116, 'OSEMOHÓN ROSA ', 'ROSA PINTOU-SE DE PRETO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOHÝM  ', 'ENFEITAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1117, 'ERESEMOHÝMAPÓ ', 'NÃO TE ENFEITES!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1117, 'OSEMOHÝM ', 'ELES SE ENFEITARAM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOHÝP ', 'PINTAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1118, 'ESEMOHÝWEME ', 'NÃO SE PINTE!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1118, 'ESÁN ESEMOLHÝPA ', 'VENHA SE PINTAR!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOKATÓ ', ' TRATAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1119, 'OSEMOKATÓ', ' ELE SE TRATOU!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOKÓP ', 'ESQUENTAR-SE', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1120, 'OSEMOKÓM ', 'ELE SE ESQUENTA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1120, 'AHÅ POTÁ WESEMOKÓPA ‘', 'EU VOU ME ESQUENTAR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOKYTÍK  ', 'LIMPAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1121, 'PESAHÓNG PESEHÁ PESESEMOKYTÍKA ', 'VOCÊS VÃO TOMAR BANHO PARA SE LIMPAREM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOKWAHÉM ', ' ASSUSTAR-SE, ESPANTAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1122, 'ASEMOKWAHÉM ', 'EU ME ASSUSTEI');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOKWATÁT  ', 'AFASTAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1123, 'OSEMOKWATÁN AKÁ SENÉ OHÍ ', 'ELE ESTEVE AFASTANDO-SE DE NÓS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1123, 'N OSEMOKWATÁRIHI', ' ELES NÃO SE AFASTARAM DE NÓS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1123, 'AKWAHÁM ISEMOKATÁWA ', 'EU SEI QUE ELE SAIU DO MEU LADO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMO´É  ', 'ESTUDAR, APRENDER', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1124, 'OSEMO´É ', 'ELE ESTUDA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMO´ENÁP ', ' CIRCUNSTÂNCIA DE APRENDER', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1125, 'OPÁM ISEMO´ENÁWA', ' ACABOU A AULA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMO´ÉPOTÁT ', ' QUERER APRENDER', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1126, 'N OSEMO´ÉPOTÁRIHI ', 'ELE É DESLIGADO, ELE NÃO QUER APRENDER');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOMÍK ', 'AQUIETAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1127, 'OSEMOMÍN', ' AQUIETOU-SE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1127, 'OKWAHÁM SÉ SEMOMIKÁWA ', 'ELE SABE QUE EU ME AQUIETO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOMING ', 'ACALMAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1128, 'NE SE MOSEMOMING IPE ', 'VOCÊ ME ACALMA?');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1128, 'ISÉ AHÁ IMUSÉ MUMIKA APYHYWÉHÁ A´ÉRAMO I´SEMOMING', ' ...');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMONÁT ', ' ACIDENTAR-SE, ADOECER', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1129, ' OSEMONÁN SEHÉ', ' DISQUE ELE SE ACIDENTOU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1129, 'OSEMONÁN', ' ELE ADOECEU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1129, 'N OSEMONÁRIHI’', ' ELE NÃO ADOECEU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1129, 'ASÁROWÉ KÁ KATÝ WESEMONÁTA', ' EU VIM PARA CÁ SÓ PARA ADOECER');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOTI´ÓAPÍT VINTR LA ', 'ABAIXAR A PRÓPRIA CABEÇA', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1130, 'ASÉMO´ÁPÍN ', 'EU ABAIXEI A MINHA CABEÇA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOTOWÝT  ', 'SECAR-SE, ENXUGAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1131, 'ASEMOTOWÝN ', 'EU VOU ME SECAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1131, 'ERÉ ESEMOTOWÝTA ', 'VÁ SE SECAR!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOWÁJ ', ' CORTAR-SE', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1132, 'ASEMOWÁJ ', 'EU ME CORTEI');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1132, 'OSEMOWÁJ ', 'ELE SE CORTOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMOYRÓ  ', 'ENERVAR-SE, COMPORTAR-SE MAL, FICAR MAL CRIADO, SER IRREVERENTE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1133, 'OSEMÓYRÓ ', 'ELE ESTÁ MAL CRIADO (NÃO QUER OBEDECER)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEMY´ÝJ ', 'BARULLHO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1134, 'SÉ SEMY´YJ WETÓTA ', 'EU VIM FAZENDO BARULHO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SENÉ ', 'PRON.DEP NÓS (INCL)', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1135, 'IARÓ SENÉ PORAHAJTÁWA', ' NOSSA FESTA É BONITA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SENÓNG ', 'DEITAR-SE NO CHÃO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1136, 'ISÉ ASENÓNG WETÓPA YWÝW ', 'EU ESTOU DEITADO PELO CHÃO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1136, 'OSENÓNG OKWÁPA', ' ELES ESTÃO DEITADOS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1136, 'YWÝO IKWÁWI OSENÓNGA', ' ELES ESTÃO DEITADOS NO CHÃO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1136, 'SAKATÓPE IKWÁWI OSENÓNGA ', 'ELES ESTÃO DEITADOS DO LADO DE FORA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1136, 'ESENÓNGEME ', 'NĀO SE DEITE!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1136, 'ERÉ ESENÓNGA ', 'VÁ DEITAR!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SENOPÓ ', 'BATER-SE, MACHUCAR-SE', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1137, 'ASENOPÓ ', 'EU ME MACHUQUEI');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SENOPÓNOPÓ ', ' BATER-SE MUITAS VEZES', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1138, 'ASE´ÉNG WETÓTA PANÉ ISOPÉ ERESENOPÓNOPÓSOKWÉRAPO ', 'EU VIM DIZENDO PARA ELAS NÃO SE BATEREM MAIS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1138, 'ASE´ENGAMO RAKÁ ISOPÉ ESENOPÓNOPÓSOKWEN WESÁ', ' EU DISSE PARA ELA SE BATER MAIS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1138, 'N AMOSENOPÓNOPÓSOKWÉRIHI ', 'EU NÃO A FIZ ELA SE BATER MUITO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEOPÍT  ', 'SUBIR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1139, 'OSEOPÍN ', 'ELE SOBE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1139, 'ÓN SEOPITA ', 'ELE VEIO PARA SUBUIR ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPÁKOTÓK VINTR ', 'FURAR-SE O DEDO', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1140, 'ASEPÁKOTÓNGAMÉ', ' EU ACABEI DE FURAR MEU DEDO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPÁKYTI  ', 'CORTAR-SE A MÃO', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1141, 'ASEPÁKYTÍ KYHĚ PÓ ', 'EU CORTEI MEU DEDO COM A FACA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPÁNOWÁJ  ', 'CORTAR-SE (COM FACA)', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1142, 'ASEPÁMOWÁJ', ' EU CORTEI MINHA MÃO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPE´ÁP ', 'LENHA', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1143, 'SEPEÁWA ARON WEHÁ ', 'EU FUI PARA TRAZER LENHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1143, 'ARÓN SÉ SEPE ÁWA IMOPEPÉNA ', 'EU TROUXE MINHA LENHA PARA QUEBRÁ-LA EM PEDAÇOS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPE’É  ', 'ESQUENTAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1144, 'ASEPE´É ', 'EU ME ESQUENTEI');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1144, 'ASEPESEPE´ÉYPÝ WE', ' EU VOU ME ESQUENTAR PRIMEIRO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1144, 'OSEPE´É AKÁ ', 'ELE ESTÁ ESQUENTANDO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPIAWÁK ', ' DESCOBRIR-SE, TIRAR (DE SI) ALGO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1145, 'OSEPIAWÁNG ', 'ELE SE DESCOBRIU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1145, 'ERÉ ESEPIAWÁKA', ' VÁ, DESCUBRA-SE!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPIHÝP ', ' PINTAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1146, 'OSEPIHÝM ', 'ELE SE PINTOU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1146, 'ERÉ ESEPIHÝPA ', 'VÁ, PINTE-SE!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPOKWAHÁP ', ' ACOSTUMAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1147, 'ASEPOKWAHÁM WEKÁ', ' EU ESTOU ME ACOSTUMANDO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1147, 'ESEPOKWAHÁPA EHÁ ', 'VÁ SE ACOSTUMANDO!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPOHÉ  ', 'JUNTO DE SI (NA REDE)', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1148, 'OENÓJ OSCPOHĆ', ' ELE O CHAMOU PARA JUNTO DELE (NA REDE)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPOHÉI  ', 'LAVAR-SE AS MÃOS', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1149, 'ASEPOHÉJPÁWAMÉ ', 'EU JÁ ACABEI DE LAVAR AS MÃOS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPOMI  ', 'MERGULHAR', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1150, 'ESEPOMÍEME', ' NÃO MERGULHE!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPÝAWÁKOTÓK  ', 'MACHUCAR-SE O TORNOZELO', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1151, 'ASEPÝAWÄKOTÓNG', ' EU MACHUQUEI O MEU TORNOZELO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPYHÉJ ', ' LAVAR-SE OS PÉS', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1152, 'ESEPYHÉJ EHÁ ', 'VÁ LAVAR OS PÉS!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1152, 'ASEPYHÉJTA ', 'EU VOU LAVAR MEUS PÉS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPYRÁK ', ' DESCASCAR-SE', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1153, 'OSEPYRÁNG SÉ RAKAPÉ ', 'A PELE DA MINHA BARRIGA ESTÁ DESCASCANDO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEPYTÓAKWÉN  ', 'PASSAR MAL', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1154, 'N ASEPYTÓAKWÉNIHI ', 'EU NÃO ESTOU PASSANDO MAL');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SERATI´Í ', 'PICA-PAU', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1155, 'SERATI’ÍA', ' PICA-PAU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SERE- ', 'PREF.PESS.CORR NÓS (INCL.)', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1156, 'SAWAHÉMAMO SEREHÁ SANÉ YPÝ ', 'NÓS PODERÍAMOS CHEGAR PRIMEIRO!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEREREKÁHÝP ', ' ENGANAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1157, 'OSEREREKAHÝM', ' ELE SE ENGANOU ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1157, 'N OSERERELKAHÝWIHI', ' ELE NÃO SE ENGANOU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1157, 'OKWAHÁM SÉ REKWAHÝPA ', 'ELE SABE QUE EU ME ENGANEI');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SERÉP  ', 'CAIR DA REDE, ROLAR DA REDE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1158, 'OSERÉN ', 'ELE ROLOU DA REDE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1158, 'N OSERÉWIHI ', 'ELE NÃO ROLOU DA REDE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1158, 'AESÁ ISEREPÁWA', ' EU VI ELE CAIR DA REDE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SERO´Á ', 'ESP. DE CABACINHA', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1159, 'SÉ SERO´Á ', 'MINHA CABACINHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1159, 'ISERO´Á ´', 'CABACINHA DELE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SERO ÁT ', ' ABAIXAR-SE, INCLINAR-SE, CUVAR-SE', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1160, 'ISERO ´ÁRAMO AHÁ POTÁ', ' QUANDO (O SOL) SE ABAIXAR EU VOU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1160, 'KWARAHÝ SERO ÁRAMO AHÁ POTÁ ', 'QUANDO O SOL NASCER EU VOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEROTÍ  ', 'ENVERGONHAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1161, 'OSEROTÍ ', 'ELE SE ENVERGONHOU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1161, 'SEROTIETÉ ', ' ENVERGONHAR-SE MUITO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1161, 'OSEROTIETÉ ', 'ELE SE ENVERGONHA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEROTIWEWÓJ ', 'GALINHA DÁGUA', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1162, 'SEROTIWEWÓSA OHÉM ´YA HI ‘', 'A GALINHA DÁGUA SAIU DA ÁGUA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SESÓ', 'JEJU', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1163, 'SESÓA HE´É', ' JEJU É GOSTOSO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SESOROHÉJ  ', 'LAVARA BOCA (ESCOVAR DENTES)', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1164, 'ERESESOROHÉJ ', 'NÃO LAVE A BOCA (OS DENTES)!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1164, 'ASESOROHÉJ', ' EU VOU MINHA LAVAR A BOCA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SESORÓKYTÝK  ', 'ESCOVAR DENTE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1165, 'ASÉSORŐKYTÝNG ’', 'EU ESCOVO MEUS DENTES');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SESORÓPO´É  ', 'COLOCAR A MÃO NA BOCA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1166, 'ERESESORÓPO´É RAPÓ ', 'NÃO COLOQUE A NÃO NA BOCA!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEWÓN ', ' EMBRULHAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1167, 'ASEWÓN', ' EU ME EMBRULHEI');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEWÝKARÝI ', ' ARRANHAR A REGIÃO DOS OLHOS', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1168, 'OSEWÝKARYJ TA', ' ELE VAI ARRANHAR A REGIÃO DOS OLHOS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEWÝT ', ' VOLTAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1169, 'ASEWÝN TA WETÓTA', ' EU AINDA VOLTO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1169, 'OROMANÁPOTÁ NÉ MOSEWÝTA ', 'EU VOU TE MANDAR DE NOVO LÁ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SEWÝTÁP, SEWYHÁP ', ' VOLTA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1170, 'NÉ SEWYTÁWA ', 'TUA VOLTA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1170, 'NÉ SEWYHÁWA ', 'TUA VOLTA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SO-', ' PREF.REC UNS AOS OUTROS', 4);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1171, 'OROSOPIHÓM ', 'NÓS (EXCL.) NOS BELISCAMOS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1171, 'OROSOO´O POTÁ ', 'NÓS (EXCL.) VAMOS NOS MORDER');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1171, 'OPO´ÓM TA OSOWEHÉ', ' ELES VÃO GUERREAR (LEVANTAR-SE UNS CONTRA OS OUTROS)');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1171, 'OPORONGETÁ OSOOPÉ ', 'ELES FALARAM UM COM O OUTRO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1171, 'OMANAHG OSO ÁWA ', 'ELES CORTARAM OS CABELOS UNS DOS OUTROS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SÓ ', 'CASTANHA', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1172, 'SÓA', ' CASTANHA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1172, 'SÓA MANAKÁWA ', 'INSTRUMENTO DE CORTAR CASTANHA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOANGÁP ', 'AMENDOIM', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1173, 'SOANGÁWA', ' AMENDOIM');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1173, 'A´OHÉJ SOANGÁWA ', 'EU GOSTO DE AMENDOIM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOAPEKWÉT', ' OURIÇO', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1174, 'AMANÁNG SOAPEKWÉRA ', 'EU QUEBRO OURIÇO DE CASTANHA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOAPETI VITR IA ', 'MATAR-SE UNS AOS OUTROS', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1175, 'OSOAPETÍWA´É ', 'OS QUE SÃO GUERREIROS, OS QUE MATAM MUITA GENTE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1175, 'OSOAPETÍWA´É ÓN', ' OS QUE SE MATAM VIERAM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOAPÍ ', ' CHOCAR-SE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1176, 'OSOAPÍ ', 'ELES SE CHOCARAM');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1176, 'OSÓA ÓTA OSOAPÍW ', 'ELES CORRERAM E SE CHOCARAM ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOKÁ ', ' MATAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1177, 'ESOKÁEME ', 'NÃO MATE!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1177, 'ERESOKÁRAPO KÝWA', ' NÃO MATE PIOLHO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1177, 'ERESOKÁRAPO ESÓSA PÓ', ' NÃO MATE PIOLHO COM TEU DENTE!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOKAHÁT ', 'MATADOR', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1178, 'ISOKAHÁRA ', 'ELE E O MATADOR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1178, 'SOKAHÁP N I ', 'CIRCUNSTÂNCIA DO MATAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1178, 'ISOKAHÁWA IPORIAHÓM ', 'A MATANÇA DELE FOI TRISTE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOKÁOKÁT ', ' FAZER ALGUÉM MATAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1179, 'ASOKÁOKAN TA ', 'EU O FAÇO MATAR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOKÁPÝT ', 'MORTO', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1180, 'OROTÝM ISOKAPÝRA ', 'NÓS ENTERRAMOS O MORTO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOKOTÓK ', ' FURAR UNS AOS OUTROS', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1181, 'OSOTÓK ', 'ELES SE FURARAM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOKWÉT ', 'SUF. MAIS DE UMA VEZ, VÁRIAS VEZES', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1182, 'AMANÁSOKWÉSOKWÉN ', 'EU MANDEI VÁRIAS VEZES');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1182, 'AHÁSOKWÉSOKWÉN', ' EU FUI VÁRIAS VEZES');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1182, 'A´ÓSOKWÉN ', 'EU COMI MAIS DE UMA VEZ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1182, 'ASOKÁSOKÁSOKWÉROKÁN', ' EU O FIZ MATAR MUITAS VEZES EM MEU LUGAR');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1182, 'ANOPÓNOPÓSOKWÉROKÁN', ' EU O FIZ BATER MUITAS VEZES EM MEU LUGAR');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SO´Í ', 'ESP. DE RÃ PEQUENA DAS PERNAS COMPRIDAS', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1183, 'SO´IA ´ÝWA POPIÁRA ', 'SOIA VIVE NO PAU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOMAMÁT ', ' CHUTAR UNS AOS OUTROS', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1184, 'OSOMAMÁN ', 'ELES SE CHUTARAM');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1184, 'ÓN OSOMOMÁTA ', 'ELES VIERAM E SE CHUTARAM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOMANÁNG  ', 'CORTAR PESCOÇO', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1185, 'OSOMANÁNG', ' ELES CORTARAM O PESCOÇO UNS DOS OUTROS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOMÍ ', 'FLAUTA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1186, 'SOMIÁ POPÓNGA', ' ESP. DE FLAUTA PEQUENA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1186, 'SOMIÁ PÉWA ', 'ESP. DE FLAUTA PEQUENA (COM SEIS ORIFÍCIOS)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOMIÁWEWÉ ', ' AVIÃO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1187, 'SOMIAWEWÉ RERÓSYPÁWA ', 'AEROPORTO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1187, 'SÝM SOMI ´ÁWEWÉ ‘', 'O AVIÃO DESCEU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOMI´ÁAJWÉT ', ' COPO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1188, 'SOMI´ ÁAJWÉRA ', 'MEU COPO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOMI´ÝWOTÝT N LLL ', 'SAPUCAIA', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1189, 'SOMI´ÝWOTÝRA IPOKÓOHÓ ', 'A SAPUCAIA É MUITO ALTA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOMÓNG ', 'CORTAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1190, 'ASOMÓNG TA', ' EU VOU CORTÁ-LO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1190, 'SÉ KYHÉ SOMÓNGA', ' MINHA TESOURA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOMOPÝ ', 'LADO,CANTO ', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1191, 'ÁNGA SOMOPÝA', ' LADO DA CASA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1191, 'SÉ SORÓA SOMOPÝA', ' OS CANTOS DA MINHA BOCA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOMOWÁJ ', ' CORTAR-SE UNS AOS OUTROS', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1192, 'OSOMOWÁJ', ' ELES SE CORTARAM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SÓN  ', 'CORRER', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1193, 'PESE PESÓNA', ' PODEM CORRER!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1193, 'EHÁ KOWÉY ASÓNAPO NÉ REWIRI', ' VÁ LOGO SENÃO EU CORRO ATRÁS DE VOCÊ!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1193, 'AKWAHÁM NE SÓNA ', 'EU CONHEÇO TEU CORRER');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1193, 'EWOKWÉ ITÓRI OSÓNWA’É AHÁ ', 'LÁ ESTÁ O QUE CORREU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SONÁWA ', ' CORRIDA', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1194, 'AKWAHÁM NÉ SÓNAWA ', 'EU CONHEÇO TUA CORRIDA ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SONOPÓ ', 'BRIGAR, BATER-SE UM(S) AO(S) OUTRO(S)', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1195, 'PESONOPEME', ' NÃO SE BATAM!');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1195, 'OSONOPÓ ', 'ELES SE BATERAM');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1195, 'OROSONOPÓ ', 'NÓS NOS BATEMOS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SONOPÓA’ÓM ', ' LUTAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1196, 'OSONOPOA’ÓWIHI ISONOPOETÉJ ', 'ELES LUTAM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SÓNG ', 'POR, COLOCAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1197, 'OSÓNG IPYPÉ ', 'ELE O COLOCOU DENTRO DELE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1197, 'OSÓNG ', 'ELE COLOCOU ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1197, 'AHÁ ISONGA ', 'ELE FOI PARA COLOCÁ-LO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOOWÝ  ', 'DESIGUALAR', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1198, 'OSOOWÝ ', 'ELE DESIGUALOU');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOOWÝ ', 'CAPIM ', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1199, 'EREMANAHÁNGAPO SOOWÝA', ' NÃO ROÇA O MATO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOOWÝA', ' NOME PRÓPRIO', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1200, 'SOOWÝA I’I SÉ MEMYRA RÉRA ‘', 'ELE DISSE QUE O NOME DO MEU FILHO E SOOWÝA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOPAPYHÝ(K)  ', 'DAR AS MÃOS UNS AOS OUTROS', 4);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1201, 'OSOPAPYHÝ(NG) ', 'ELES SE DERAM AS MÃOS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOPARÁ ', 'MACACO DA NOITE', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1202, 'SOPARÁ AESÁ ', 'EU VI O MACACO DA NOITE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOPARAHÍRA ', 'NOME ABELHA (IRUSU)', 2);
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOPOREMÓ', ' GRUPO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1204, 'AWÁETE SOPOREMÓRAMO ', 'NÓS SOMOS UM GRUPO DE ÍNDIOS ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOPOTÁRETE  ', 'AMAR UNS AOS OUTROS', 4);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1205, 'OSOPOTÁRETÉ', ' ELES SE AMAM UM(S) AO(S) OUTRO(S)');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOPOWÝT  ', 'ESTAR JUNTOS (TODOS)', 4);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1206, 'OSOPOWÝRI ', 'ELES ESTAO JUNTOS');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1206, 'OSOPOWÝRI ITÓRI ', 'ELES VIERAM JUNTOS');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOPYHÝK ', ' AGARRAR-SE UNS AOS OUTROS', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1207, 'OSOPYHYNG', ' ELES SE AGARRAM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOROMÓ', ' JERIMUM', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1208, 'SOROMÓA HE´É A´ÉRAMO A´ÓKATÓETÉ ', 'JERIMUM É BOM, POR ISSO EU GOSTO DE COME');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1208, 'ASORONÍA O´O SOROMÓA ', '...');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SORÓPYTÉT ', 'BEIJAR (CHUPAR BOCA)', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1209, 'ASORÓPYTÉR ', 'EU O BEIJO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1209, 'ESORÓPYTÉREME', ' NÃO O BEIJE!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SORÓPYTÝROKÁN ', 'FAZER ALGUÉM BEIJAR NA BOCA DE OUTRO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1210, 'OSORÓPYTÉROKÁN TA', ' EU VOU FAZER ELE BEIJAR NA BOCA');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1210, 'ASORÓPÝTER ', 'EU O BEIJO, EU CHUPO A BOCA DELE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1210, 'ESORÓPYTÉREME ', 'NÃO O BEIJE, NÃO CHUPE A BOCA DELE!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOROTÝM ', ' FECHAR A BOCA', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1211, 'ESORÓÝM', ' FECHA A BOCA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SORÓSÁJ ', ' LA BOCEJAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1212, 'ISORÓSÁJ', ' ELE BOCEJOU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1212, 'SÉ SOROSÁJ', ' EU BOCEJEI');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOSORÓPYTÉT  ', 'BEIJAR-SE UNS AOS OUTROS', 4);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1213, 'OSOSORÓPYTÉN', ' ELES SE BEIJARAM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOSYARÍ ', 'AÇAI', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1214, 'SOSYARÍA RÝA ', 'SUCO DE AÇAÍ');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1214, 'SOSYHÁRA HE´É ', 'AÇAÍ É GOSTOSO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SÓT ', ' PESCOÇO', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1215, 'SÉ SÓRA', ' MEU PESCOÇO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOTA´YWÁ ', 'JATOBÁ', 5);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1217, 'SOTA´ÝWA ´', 'PÉ DE JATOBÁ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOWATÍ ', 'ENCONTRAR-SE UM(S) COM O(S) OUTROS)', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1218, 'OSOWATÍ', ' ELES SE ENCONTRARAM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOWÉ', ' SAPO CURURU', 2);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1219, 'SOWÉ OPYRYRÝM', ' CURURU PULA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOWÉ PART ´SÓ´, ', 'SOMENTE', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1220, 'AKARÓ SOWÉ ', 'EU SÓ COMI');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1220, 'N AKOROIHI A´Y´Ó SOWÉ ', 'NÃO COMI SÓ BEBI ÁGUA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOWÉ PART', ' SEMELHANTE A', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1221, 'WYTIRÓNA SOWÉ WÁRA WYTÍA ', 'MANGA PARECE OITÍ');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOWERÓN  IA ', 'TRAZER', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1222, 'OSOWERÓN', ' ELE O TROUXE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOWEROSE´ ÉNGAHÝAHÝ ', ' DISCUTIR MUITO (COM RAIVA)', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1223, 'OSEWEROSE´ ÉNGAHÝAHÝ ', 'ELES DISCUTIRAM MUITO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOWESÁK  ', 'VER-SE UNS AOS OUTROS', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1224, 'OSOWESÁK ', 'ELES SE VIRAM');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1224, 'ÓN OSOWESÁKA', ' ELES VIERAM PARA SE VER');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOWÓN ', ' ABRAÇAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1225, 'ASOWÓN TÁ ', 'EU VOU ABRAÇA-LO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1225, 'N OSOWÓNIHI ', 'ELE NÃO ABRAÇOU O OUTRO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOWÝK ', ' ENTALAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1226, 'SÉ SOWÝNG ', 'ELE ME ENTALOU');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1226, 'OKWAHÁM SÉ SOWYKÁWA ', 'ELE SABE QUE EU ME ENTALEI');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SOWÝNGOKÁT ', 'FAZER ALGUÉM ENTALAR OUTRO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1227, 'ASOWÝNGOKÁN ', 'EU O FIZ ENTALAR OUTRO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SUSON ', 'ESCORRER', 6);
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SUSÚSAÍ ', 'ABRIR A BOCA', 3);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1229, 'ESURÚSAI', ' ABRA A BOCA');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SÝ ', 'MACHADO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1230, 'SÉ SÝA', ' MEU MACHADO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SYAKAPÉ ', ' FOICE', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1231, 'ISYAKAPÉ ', 'FOICE DELE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SYAMÝK  ', 'APERTAR', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1232, 'AKWAHÁM TA ISYAMYKÁWA', ' EU VOU SABER SE ELE ESTÁ APERTADO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1232, 'ASYAMÝNG TA', ' EU VOU APERTÁ-LO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SYAWÁP  ', 'FALTAR', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1233, 'ERESYAWÁWAPO', ' NÃO FALTE!');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SYKÁK ', ' ENCOSTAR-SE ', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1234, 'OSYKÁNG NÉ REHÉ ', 'ELE ENCOSTOU-SE NO OUTRO');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1234, 'ÓN SẼ REHÉ OSYKÁKA ', 'ELE VEIO SE ENCOSTAR EM MIM');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SYKAKWÉT ', 'QUEBRADO', 6);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1235, 'ISYKÁKWÉTA', ' ELE ESTÁ QUEBRADO');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SYKYRÝ ', 'VERDE, AZUL', 7);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1236, 'ISYKYRÝA ', 'O VERDE DELE');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1236, 'ISYKYRÝ ', 'É AZUL');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1236, 'ISYKYRÝ HEPOTÍA', ' O COCÔ DELE ESTÁ VERDE');
+INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
+VALUES ('SYKÝT ', ' SAL', 1);
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1237, ' TEM SAL', '');
+INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
+VALUES (1237, ' MEU SAL', '');
