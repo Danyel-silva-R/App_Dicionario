@@ -8006,6 +8006,6 @@ VALUES (1236, 'ISYKYRÝ HEPOTÍA', ' O COCÔ DELE ESTÁ VERDE');
 INSERT INTO PalavraAssurini (assurini, portugues, classificacao_id)
 VALUES ('SYKÝT ', ' SAL', 1);
 INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
-VALUES (1237, ' TEM SAL', '');
+VALUES (1237, 'ISYKÝN', 'TEM SAL');
 INSERT INTO Exemplo (palavra_assurini_id, frase_assurini, traducao)
-VALUES (1237, ' MEU SAL', '');
+VALUES (1237, 'SÉ SYKÝRA', 'MEU SAL');
