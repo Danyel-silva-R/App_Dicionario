@@ -31,13 +31,15 @@ class _SplashPageState extends State<SplashPage> {
 
   Future<void> _initializeApp() async {
     // Só usar o resetDatabase() se alguma alteração for feita na estrutura do banco de dados, pq isso vai resetar todos os favoritos do usuario
-    //await resetDatabase();
+    await resetDatabase();
     try {
       print('Inicializando banco...');
       final db = await AppDatabase.instance.database;
 
       // Teste simples: listar tabelas
-      final tables = await db.rawQuery('SELECT name FROM sqlite_master WHERE type="table"');
+      final tables = await db.rawQuery(
+        'SELECT name FROM sqlite_master WHERE type="table"',
+      );
       print('Tabelas encontradas: $tables');
 
       // Pequeno delay pra manter o splash visível
@@ -127,7 +129,7 @@ class _SplashPageState extends State<SplashPage> {
             if (_isLoading) ...[
               const SizedBox(height: 40),
               const CircularProgressIndicator(color: Colors.white),
-            ]
+            ],
           ],
         ),
       ),

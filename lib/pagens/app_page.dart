@@ -15,14 +15,13 @@ class AppPage extends StatefulWidget {
 
 class _HomePageState extends State<AppPage> {
   int _selectedIndex = 0;
-  
+
   // Crie uma GlobalKey para a FavoritosPage
   final GlobalKey<FavoritosPageState> _favoritesKey = GlobalKey();
 
   late final List<Widget> _pages; // Mude para late final
 
   @override
-
   void initState() {
     super.initState();
     // Inicialize a lista _pages no initState, usando a chave
@@ -31,7 +30,7 @@ class _HomePageState extends State<AppPage> {
       const BuscarPage(showBackButton: false),
       const CategoriasPage(showBackButton: false),
       // Atribua a chave à FavoritosPage
-      FavoritosPage(key: _favoritesKey, showBackButton: false), 
+      FavoritosPage(key: _favoritesKey, showBackButton: false),
       const ConfiguracoesPage(showBackButton: false),
     ];
   }
@@ -48,6 +47,7 @@ class _HomePageState extends State<AppPage> {
             color: Colors.white,
           ),
         ),
+        backgroundColor: AppColors.primary,
         centerTitle: true,
       ),
       body: IndexedStack(index: _selectedIndex, children: _pages),

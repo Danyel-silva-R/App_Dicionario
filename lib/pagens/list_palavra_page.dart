@@ -33,9 +33,14 @@ class ListPalavraPage extends StatelessWidget {
               builder: (context, snapshot) {
                 final count = snapshot.data?.length;
                 return Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 8,
+                    vertical: 16,
+                  ),
                   child: Text(
-                    count == null ? 'Carregando...' : '$count palavras encontradas',
+                    count == null
+                        ? 'Carregando...'
+                        : '$count palavras encontradas',
                     style: const TextStyle(
                       fontSize: 16,
                       color: Color(0xFF654321),
@@ -69,19 +74,25 @@ class ListPalavraPage extends StatelessWidget {
                   return ListView.builder(
                     itemCount: palavras.length,
                     itemBuilder: (context, index) {
+                      final tupi = palavras[index]['tupi'] ?? '';
+                      final portugues = palavras[index]['portugues'] ?? '';
                       return Container(
                         margin: const EdgeInsets.only(bottom: 12),
                         child: InkWell(
-                          onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (_) => PalavraPage(
-                                id: palavras[index]['id'] ?? 0,
-                                portugues: palavras[index]['portugues'] ?? '',
-                                assurini: palavras[index]['assurini'] ?? '',
+                          onTap:
+                              () => Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder:
+                                      (_) => PalavraPage(
+                                        id: palavras[index]['id'] ?? 0,
+                                        portugues:
+                                            palavras[index]['portugues'] ?? '',
+                                        assurini:
+                                            palavras[index]['assurini'] ?? '',
+                                      ),
+                                ),
                               ),
-                            ),
-                          ),
                           child: Container(
                             padding: const EdgeInsets.all(16),
                             decoration: BoxDecoration(
@@ -101,7 +112,9 @@ class ListPalavraPage extends StatelessWidget {
                                   width: 40,
                                   height: 40,
                                   decoration: BoxDecoration(
-                                    color: const Color(0xFF654321).withOpacity(0.1),
+                                    color: const Color(
+                                      0xFF654321,
+                                    ).withOpacity(0.1),
                                     borderRadius: BorderRadius.circular(8),
                                   ),
                                   child: const Icon(
@@ -121,6 +134,20 @@ class ListPalavraPage extends StatelessWidget {
                                     ),
                                   ),
                                 ),
+                                if (portugues.isNotEmpty) ...[
+                                  const SizedBox(width: 8),
+                                  Flexible(
+                                    child: Text(
+                                      portugues,
+                                      textAlign: TextAlign.right,
+                                      style: const TextStyle(
+                                        fontSize: 12,
+                                        color: Color(0xFF757575),
+                                      ),
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                ],
                                 const Icon(
                                   Icons.arrow_forward_ios,
                                   color: Color(0xFF9E9E9E),
@@ -141,5 +168,4 @@ class ListPalavraPage extends StatelessWidget {
       ),
     );
   }
-
 }

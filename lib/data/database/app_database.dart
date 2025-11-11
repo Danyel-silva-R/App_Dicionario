@@ -20,7 +20,6 @@ class AppDatabase {
     final path = p.join(dbPath, 'dicionario_assurini.db');
     print('📂 Banco criado em: $path');
 
-
     return openDatabase(
       path,
       version: 1,
@@ -81,7 +80,9 @@ class AppDatabase {
       );
       if ((count ?? 0) > 0) return;
 
-      final sql = await rootBundle.loadString('assets/sql/initial_data.sqlite3');
+      final sql = await rootBundle.loadString(
+        'assets/sql/initial_data.sqlite3',
+      );
       await executeSqlScript(db, sql);
     } catch (_) {
       // Se o arquivo não existir, apenas ignora.

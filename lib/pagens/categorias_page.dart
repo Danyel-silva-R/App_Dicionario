@@ -7,7 +7,8 @@ class CategoriasPage extends StatelessWidget {
 
   final bool showBackButton;
 
-  String? _iconFor(String nome) {
+  // Versão segura para nomes de arquivos com acentos
+  String? _iconFor2(String nome) {
     final key = nome.toLowerCase();
     if (key.contains('natureza')) return 'assets/images/folha.png';
     if (key.contains('animais')) return 'assets/images/pata.png';
@@ -35,61 +36,80 @@ class CategoriasPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFF3EADF),
 
-      body: Padding(
-        padding: const EdgeInsets.all(24),
-        child: Column(
-          children: [
-            Text(
-              'Escolha uma Categoria',
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.w600,
-                color: const Color(0xFF654321),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(24),
+          child: Column(
+            children: [
+              Text(
+                'Escolha uma Categoria',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600,
+                  color: const Color(0xFF654321),
+                ),
+                textAlign: TextAlign.center,
               ),
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: 24),
-            Expanded(
-              child: FutureBuilder<List<Map<String, dynamic>>>(
-                future: repo.listClassificacoesWithCount(),
-                builder: (context, snapshot) {
-                  if (snapshot.connectionState == ConnectionState.waiting) {
-                    return const Center(child: CircularProgressIndicator());
-                  }
-                  if (snapshot.hasError) {
-                    return Center(
-                      child: Text('Erro ao carregar categorias: ${snapshot.error}',
-                          style: const TextStyle(color: Colors.red)),
-                    );
-                  }
-                  final categorias = snapshot.data ?? [];
-                  if (categorias.isEmpty) {
-                    return const Center(child: Text('Nenhuma categoria encontrada'));
-                  }
-                  return GridView.builder(
-                    gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: 2,
-                      crossAxisSpacing: 16,
-                      mainAxisSpacing: 16,
-                      childAspectRatio: 1.0,
-                    ),
-                    itemCount: categorias.length,
-                    itemBuilder: (context, index) {
-                      final c = categorias[index];
-                      final iconPath = _iconFor('${c['nome']}');
-                      return _buildCategoryCard(
-                        context,
-                        id: c['id'] as int,
-                        nome: _displayName('${c['nome']}'),
-                        total: (c['total'] as int?) ?? 0,
-                        iconPath: iconPath,
+              const SizedBox(height: 24),
+              Expanded(
+                child: FutureBuilder<List<Map<String, dynamic>>>(
+                  future: repo.listClassificacoesWithCount(),
+                  builder: (context, snapshot) {
+                    if (snapshot.connectionState == ConnectionState.waiting) {
+                      return const Center(child: CircularProgressIndicator());
+                    }
+                    if (snapshot.hasError) {
+                      return Center(
+                        child: Text(
+                          'Erro ao carregar categorias: ${snapshot.error}',
+                          style: const TextStyle(color: Colors.red),
+                        ),
                       );
-                    },
-                  );
-                },
+                    }
+                    final categorias = snapshot.data ?? [];
+                    if (categorias.isEmpty) {
+                      return const Center(
+                        child: Text('Nenhuma categoria encontrada'),
+                      );
+                    }
+                    return LayoutBuilder(
+                      builder: (context, constraints) {
+                        final width = constraints.maxWidth;
+                        final isCompact = width < 360;
+                        final isWide = width > 600;
+                        final spacing = isCompact ? 8.0 : 16.0;
+                        final maxExtent = isWide ? 240.0 : 200.0;
+                        final aspectRatio = isWide ? 1.1 : 0.9;
+
+                        return GridView.builder(
+                          padding: EdgeInsets.zero,
+                          gridDelegate:
+                              SliverGridDelegateWithMaxCrossAxisExtent(
+                                maxCrossAxisExtent: maxExtent,
+                                crossAxisSpacing: spacing,
+                                mainAxisSpacing: spacing,
+                                childAspectRatio: aspectRatio,
+                              ),
+                          itemCount: categorias.length,
+                          itemBuilder: (context, index) {
+                            final c = categorias[index];
+                            final iconPath = _iconFor2('${c['nome']}');
+                            return _buildCategoryCard(
+                              context,
+                              id: c['id'] as int,
+                              nome: _displayName('${c['nome']}'),
+                              total: (c['total'] as int?) ?? 0,
+                              iconPath: iconPath,
+                            );
+                          },
+                        );
+                      },
+                    );
+                  },
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
@@ -103,15 +123,17 @@ class CategoriasPage extends StatelessWidget {
     String? iconPath,
   }) {
     return InkWell(
-      onTap: () => Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (_) => ListPalavraPage(
-            classificacaoId: id,
-            classificacaoNome: nome,
+      onTap:
+          () => Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder:
+                  (_) => ListPalavraPage(
+                    classificacaoId: id,
+                    classificacaoNome: nome,
+                  ),
+            ),
           ),
-        ),
-      ),
       child: Container(
         decoration: BoxDecoration(
           color: Colors.white,
@@ -134,31 +156,32 @@ class CategoriasPage extends StatelessWidget {
                 child: SizedBox(
                   width: 64,
                   height: 64,
-                  child: iconPath == null
-                      ? const ColoredBox(
-                          color: Color(0xFFF5F5F5),
-                          child: Center(
-                            child: Icon(
-                              Icons.category,
-                              color: Color(0xFFBDBDBD),
-                            ),
-                          ),
-                        )
-                      : Image.asset(
-                          iconPath,
-                          fit: BoxFit.contain,
-                          errorBuilder: (context, error, stackTrace) {
-                            return const ColoredBox(
-                              color: Color(0xFFF5F5F5),
-                              child: Center(
-                                child: Icon(
-                                  Icons.photo,
-                                  color: Color(0xFFBDBDBD),
-                                ),
+                  child:
+                      iconPath == null
+                          ? const ColoredBox(
+                            color: Color(0xFFF5F5F5),
+                            child: Center(
+                              child: Icon(
+                                Icons.category,
+                                color: Color(0xFFBDBDBD),
                               ),
-                            );
-                          },
-                        ),
+                            ),
+                          )
+                          : Image.asset(
+                            iconPath,
+                            fit: BoxFit.contain,
+                            errorBuilder: (context, error, stackTrace) {
+                              return const ColoredBox(
+                                color: Color(0xFFF5F5F5),
+                                child: Center(
+                                  child: Icon(
+                                    Icons.photo,
+                                    color: Color(0xFFBDBDBD),
+                                  ),
+                                ),
+                              );
+                            },
+                          ),
                 ),
               ),
               const SizedBox(height: 12),

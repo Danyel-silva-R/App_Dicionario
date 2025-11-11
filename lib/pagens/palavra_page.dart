@@ -8,7 +8,12 @@ class PalavraPage extends StatefulWidget {
   final String portugues;
   final String assurini;
 
-  const PalavraPage({super.key, required this.portugues, required this.assurini, required this.id});
+  const PalavraPage({
+    super.key,
+    required this.portugues,
+    required this.assurini,
+    required this.id,
+  });
 
   @override
   State<PalavraPage> createState() => _PalavraPageState();
@@ -47,10 +52,9 @@ class _PalavraPageState extends State<PalavraPage> {
               color: isFavorite ? Colors.red : Colors.white,
             ),
             onPressed: () async {
-
               await _repo.toggleFavorite(widget.id);
               await _loadFavorite();
-              
+
               if (!mounted) return;
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
@@ -127,8 +131,8 @@ class _PalavraPageState extends State<PalavraPage> {
                 ),
               ),
               const SizedBox(height: 20),
-        
-              BuildExemplosCards(id: widget.id)
+
+              BuildExemplosCards(id: widget.id),
             ],
           ),
         ),
