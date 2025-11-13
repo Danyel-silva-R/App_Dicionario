@@ -36,7 +36,7 @@ class PovoAsuriniPage extends StatelessWidget {
             Text(
               'Os Asurini do Trocará habitam a Terra Indígena Trocará, no Pará, entre os municípios de '
               'Baião e Tucuruí, à margem do rio Tocantins, e falam a língua '
-              'Asurini do Tocantins, da família Tupi-Guarani. :contentReference[oaicite:5]{index=5}',
+              'Asurini do Tocantins, da família Tupi-Guarani. ',
               style: TextStyle(color: textDark.withOpacity(0.9), height: 1.4),
               textAlign: TextAlign.justify,
             ),
@@ -47,7 +47,7 @@ class PovoAsuriniPage extends StatelessWidget {
               title: 'Origem e Localização',
               text:
                   'A comunidade está localizada na Terra Indígena Trocará, e a língua é usada exclusivamente por esse povo no estado do Pará. :contentReference[oaicite:6]{index=6} '
-                  'Historicamente, o termo “Asurini” passou a ser usado para esse grupo na região após contato com sertanejos e expansão de fronteiras na Amazônia. :contentReference[oaicite:7]{index=7}',
+                  'Historicamente, o termo “Asurini” passou a ser usado para esse grupo na região após contato com sertanejos e expansão de fronteiras na Amazônia. ',
               imagePath: 'assets/images/mapa.png',
             ),
 

@@ -1,7 +1,7 @@
 import 'package:dicionario_assurini/componetes/cad_cartegoria.dart';
 import 'package:dicionario_assurini/pagens/aprenda_page.dart';
 import 'package:dicionario_assurini/pagens/origem_page.dart';
-import 'package:dicionario_assurini/pagens/provo_page.dart';
+import 'package:dicionario_assurini/pagens/povo_page.dart';
 import 'package:flutter/material.dart';
 import 'package:dicionario_assurini/theme/theme.dart';
 
@@ -29,7 +29,7 @@ class _HomeContentPageState extends State<HomeContentPage> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AprendaPronunciaPage(),
+                    builder: (context) => const AprendaPronunciaTextoPage(),
                   ),
                 );
               },
