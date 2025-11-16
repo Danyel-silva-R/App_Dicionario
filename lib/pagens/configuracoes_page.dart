@@ -1,3 +1,4 @@
+import 'package:dicionario_assurini/pagens/sobre_app_page.dart';
 import 'package:flutter/material.dart';
 
 class ConfiguracoesPage extends StatelessWidget {
@@ -13,16 +14,13 @@ class ConfiguracoesPage extends StatelessWidget {
         padding: const EdgeInsets.all(24),
         child: Column(
           children: [
-            _buildConfigurationItem('Política de privacidade', () {
-              // Navegar para política de privacidade
-            }),
             const SizedBox(height: 16),
             _buildConfigurationItem('Sobre o Dicionário', () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => SobreAppPage()),
+              );
               // Navegar para sobre o dicionário
-            }),
-            const SizedBox(height: 16),
-            _buildConfigurationItem('Ajuda', () {
-              // Navegar para ajuda
             }),
           ],
         ),

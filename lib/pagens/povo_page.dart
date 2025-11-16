@@ -46,7 +46,7 @@ class PovoAsuriniPage extends StatelessWidget {
             _InfoCard(
               title: 'Origem e Localização',
               text:
-                  'A comunidade está localizada na Terra Indígena Trocará, e a língua é usada exclusivamente por esse povo no estado do Pará. :contentReference[oaicite:6]{index=6} '
+                  'A comunidade está localizada na Terra Indígena Trocará, e a língua é usada exclusivamente por esse povo no estado do Pará. '
                   'Historicamente, o termo “Asurini” passou a ser usado para esse grupo na região após contato com sertanejos e expansão de fronteiras na Amazônia. ',
               imagePath: 'assets/images/mapa.png',
             ),
@@ -66,7 +66,7 @@ class PovoAsuriniPage extends StatelessWidget {
             _InfoCard(
               title: 'Desafios e Preservação',
               text:
-                  'Apesar do idioma ainda estar em uso, a língua Asurini do Tocantins está em risco, pois as novas gerações falam cada vez mais o português. :contentReference[oaicite:8]{index=8} '
+                  'Apesar do idioma ainda estar em uso, a língua Asurini do Tocantins está em risco, pois as novas gerações falam cada vez mais o português. '
                   'Sustentar o idioma, a memória e os costumes tradicionais é parte essencial da sobrevivência cultural do povo Asurini.',
               imagePath: 'assets/images/alfabeto.jpeg',
             ),
