@@ -25,39 +25,29 @@ class SobreAppPage extends StatelessWidget {
           children: [
             _title('Sobre o aplicativo'),
             _paragraphCard(
-              '“Sé kó – Dicionário Asurini” é um aplicativo criado para apoiar a preservação, '
-              'a aprendizagem e a valorização da Língua Asurini do Trocará, falada pela '
-              'comunidade indígena localizada entre Baião e Tucuruí, no Pará. '
-              'O aplicativo reúne conteúdos linguísticos, culturais e educativos, '
-              'tornando o acesso à língua mais acessível para estudantes, professores '
-              'e para a própria comunidade indígena.',
+              '“Sé – Kó – Dicionário Asuriní”, é um aplicativo construído para apoiar o '
+              'processo de ensino – aprendizagem e preservação da língua materna da '
+              'etnia Asuriní do Trocará, comunidade indígena que vive na região '
+              'Tocantina, no município de Tucuruí – Pará. O App reúne o vocabulário, '
+              'expressões diárias, informações sobre a pronúncia das palavras e '
+              'conteúdos culturais, facilitando o acesso à língua materna da etnia '
+              'Asuriní Trocará para estudantes, professores e comunidade indígena e '
+              'não indígena.',
             ),
 
             const SizedBox(height: 20),
 
             _title('Desenvolvimento'),
             _paragraphCard(
-              'Desenvolvido por Danyel da Silva Rodrigues, Roger Luan Guimarães Goltara, '
-              'Gabriel da Silva, Talia dos Santos e Bruno Nichael Farias David, alunos do '
-              'curso de Ciência da Computação do IFPA – Campus Tucuruí. '
-              '\n\nCom orientação do Professor Alex Oliveira e colaboração da Professora '
-              'Maria Sarmento Pereira, que contribuiu com a organização e validação dos '
-              'conteúdos relacionados à cultura e língua Asurini.',
-            ),
-
-            const SizedBox(height: 20),
-
-            _title('Referências bibliográficas'),
-            _paragraphCard(
-              'CABRAL, Ana Suelly Arruda Câmara; RODRIGUES, Ayron Dall’Igna. '
-              'Dicionário da Língua Asuriní do Trocará do Tocantins – Português. '
-              'Belém: UFPA/IFNOPAP; UnB/IL/LALI, 2003.',
-            ),
-            const SizedBox(height: 8),
-            _paragraphCard(
-              'VIANA, Jairson Monteiro Rodrigues. A escola e a prática do futebol por '
-              'indígenas Asurini mulheres do Trocará. 2024. 205 f. '
-              'Orientação: Profa. Dra. Sônia Maria da Silva Araújo.',
+              'O aplicativo foi desenvolvido sob a orientação da Ma. Maria Sarmento '
+              'Pereira – TAE IFPA e Me. Alex Oliveira – Professor Colaborador do IFPA, '
+              'juntamente com os discentes do Curso de Ciência da Computação IFPA: '
+              'Danyel da Silva Rodrigues, Roger Luan Guimarães Goltara, Gabriel da Silva '
+              'e Bruno Nichael Farias David e Talia dos Santos – Curso Redes de '
+              'Computadores. O projeto integra tecnologia, educação e preservação '
+              'cultural, no intuito de valorizar e preservar a língua materna e a '
+              'história do povo Asuriní do Trocará por meio de uma plataforma acessível '
+              'e moderna.',
             ),
 
             const SizedBox(height: 20),
@@ -65,43 +55,31 @@ class SobreAppPage extends StatelessWidget {
             _title('Agradecimentos'),
             _paragraphCard(
               'Agradecemos à comunidade Asuriní do Trocará pela parceria na construção '
-              'deste aplicativo, ao IFPA – Edital 09/2024 – PROEX/PROEN/PROPPG – Edital '
-              'Diversidade, e a todas as pessoas que contribuíram com pesquisas, registros '
-              'e materiais que tornaram este trabalho possível.\n\n'
+              'deste aplicativo, ao IFPA - Edital 09/2024 - PROEX/PROEN/PROPPG – '
+              'Diversidade e a todas as pessoas que contribuíram com pesquisas, registros '
+              'e materiais que tornaram a construção deste aplicativo possível. '
               'Este aplicativo é um convite ao respeito, ao aprendizado e à valorização '
-              'da língua materna dos povos indígenas do Pará, em especial da etnia '
-              'Asurini do Trocará.',
+              'da língua materna dos povos indígenas da Amazônia Paraense, aqui em '
+              'especial a etnia Asuriní do Trocará.',
             ),
 
-            const SizedBox(height: 28),
+            const SizedBox(height: 30),
 
             Center(
-              child: Column(
-                children: [
-                  const Text(
-                    'Versão 1.0.0',
-                    style: TextStyle(
-                      color: textDark,
-                      fontWeight: FontWeight.w600,
-                    ),
+              child: FilledButton(
+                style: FilledButton.styleFrom(
+                  backgroundColor: accent,
+                  foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 24,
+                    vertical: 14,
                   ),
-                  const SizedBox(height: 12),
-                  FilledButton(
-                    style: FilledButton.styleFrom(
-                      backgroundColor: accent,
-                      foregroundColor: Colors.white,
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 24,
-                        vertical: 14,
-                      ),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(14),
-                      ),
-                    ),
-                    onPressed: () => Navigator.pop(context),
-                    child: const Text('Voltar'),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(14),
                   ),
-                ],
+                ),
+                onPressed: () => Navigator.pop(context),
+                child: const Text('Voltar'),
               ),
             ),
           ],
@@ -110,7 +88,7 @@ class SobreAppPage extends StatelessWidget {
     );
   }
 
-  /* ---------- estilos reutilizáveis ---------- */
+  /* --- HELPERS DE UI --- */
 
   Widget _title(String text) => Padding(
     padding: const EdgeInsets.only(bottom: 6),
