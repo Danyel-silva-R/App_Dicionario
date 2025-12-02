@@ -35,7 +35,7 @@ class _HomeContentPageState extends State<HomeContentPage> {
               },
             ),
             CadCategoria(
-              nomeCad: "O PROVO ASURINI TROCARÁ",
+              nomeCad: "O POVO ASURINI TROCARÁ",
               imagenRela: 'assets/images/oca.png',
               tap: () {
                 Navigator.push(
