@@ -35,7 +35,7 @@ class _HomeContentPageState extends State<HomeContentPage> {
               },
             ),
             CadCategoria(
-              nomeCad: "O POVO ASURINI TROCARÁ",
+              nomeCad: "O POVO ASURINI DO TROCARÁ",
               imagenRela: 'assets/images/oca.png',
               tap: () {
                 Navigator.push(
@@ -47,7 +47,7 @@ class _HomeContentPageState extends State<HomeContentPage> {
               },
             ),
             CadCategoria(
-              nomeCad: "ORIGEM DA LÍNGUA ASURINI",
+              nomeCad: "ORIGEM DA LÍNGUA MATERNA ASURINI DO TROCARÁ",
               imagenRela: 'assets/images/origempage.png',
               tap: () {
                 Navigator.push(
