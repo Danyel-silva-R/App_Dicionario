@@ -43,3 +43,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Arquivos de assinatura (PRIVADO - NÃO COMMITAR!)
+android/key.properties
+android/app/upload-keystore.jks
+playstore/keystore_password.txt
+playstore/*.aab
