@@ -155,7 +155,7 @@ class _BuscarPageState extends State<BuscarPage> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                resultados[index]['tupi'] ?? '',
+                                                resultados[index]['assurini'] ?? '',
                                                 style: const TextStyle(
                                                   fontSize: 16,
                                                   fontWeight: FontWeight.w600,

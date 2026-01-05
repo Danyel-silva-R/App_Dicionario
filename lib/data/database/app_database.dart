@@ -78,14 +78,24 @@ class AppDatabase {
       final count = Sqflite.firstIntValue(
         await db.rawQuery('SELECT COUNT(1) FROM PalavraAssurini'),
       );
-      if ((count ?? 0) > 0) return;
+      if ((count ?? 0) > 0) {
+        print('📚 Banco já possui $count palavras, pulando importação');
+        return;
+      }
 
+      print('📥 Importando dados iniciais...');
       final sql = await rootBundle.loadString(
-        'assets/sql/initial_data.sqlite3',
+        'assets/sql/initial_data.sql',
       );
       await executeSqlScript(db, sql);
-    } catch (_) {
-      // Se o arquivo não existir, apenas ignora.
+      
+      // Verificar se a importação funcionou
+      final newCount = Sqflite.firstIntValue(
+        await db.rawQuery('SELECT COUNT(1) FROM PalavraAssurini'),
+      );
+      print('📊 Importação concluída: $newCount palavras carregadas');
+    } catch (e, st) {
+      print('❌ Erro ao importar dados iniciais: $e\n$st');
     }
   }
 }

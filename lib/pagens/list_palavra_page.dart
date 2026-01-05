@@ -74,7 +74,7 @@ class ListPalavraPage extends StatelessWidget {
                   return ListView.builder(
                     itemCount: palavras.length,
                     itemBuilder: (context, index) {
-                      final tupi = palavras[index]['tupi'] ?? '';
+                      final assurini = palavras[index]['assurini'] ?? '';
                       final portugues = palavras[index]['portugues'] ?? '';
                       return Container(
                         margin: const EdgeInsets.only(bottom: 12),
