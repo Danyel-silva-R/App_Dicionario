@@ -42,7 +42,7 @@ class ListPalavraPage extends StatelessWidget {
                         ? 'Carregando...'
                         : '$count palavras encontradas',
                     style: const TextStyle(
-                      fontSize: 16,
+                      fontSize: 14,
                       color: Color(0xFF654321),
                       fontWeight: FontWeight.w500,
                     ),
@@ -128,7 +128,7 @@ class ListPalavraPage extends StatelessWidget {
                                   child: Text(
                                     palavras[index]['portugues'],
                                     style: const TextStyle(
-                                      fontSize: 16,
+                                      fontSize: 14,
                                       fontWeight: FontWeight.w500,
                                       color: Color(0xFF424242),
                                     ),
