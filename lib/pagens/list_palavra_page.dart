@@ -71,92 +71,107 @@ class ListPalavraPage extends StatelessWidget {
                       child: Text('Nenhuma palavra encontrada'),
                     );
                   }
-                  return ListView.builder(
-                    itemCount: palavras.length,
-                    itemBuilder: (context, index) {
-                      final assurini = palavras[index]['assurini'] ?? '';
-                      final portugues = palavras[index]['portugues'] ?? '';
-                      return Container(
-                        margin: const EdgeInsets.only(bottom: 12),
-                        child: InkWell(
-                          onTap:
-                              () => Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder:
-                                      (_) => PalavraPage(
-                                        id: palavras[index]['id'] ?? 0,
-                                        portugues:
-                                            palavras[index]['portugues'] ?? '',
-                                        assurini:
-                                            palavras[index]['assurini'] ?? '',
+                  return LayoutBuilder(
+                    builder: (context, constraints) {
+                      final screenWidth = constraints.maxWidth;
+                      final isCompact = screenWidth < 320;
+                      final baseFontSize = screenWidth * 0.04;
+                      final titleSize = (baseFontSize * 1.1).clamp(13.0, 18.0);
+                      final subtitleSize = (baseFontSize * 0.9).clamp(11.0, 14.0);
+                      
+                      return ListView.builder(
+                        itemCount: palavras.length,
+                        itemBuilder: (context, index) {
+                          final assurini = palavras[index]['assurini'] ?? '';
+                          final portugues = palavras[index]['portugues'] ?? '';
+                          return Container(
+                            margin: const EdgeInsets.only(bottom: 12),
+                            child: InkWell(
+                              onTap:
+                                  () => Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder:
+                                          (_) => PalavraPage(
+                                            id: palavras[index]['id'] ?? 0,
+                                            portugues:
+                                                palavras[index]['portugues'] ?? '',
+                                            assurini:
+                                                palavras[index]['assurini'] ?? '',
+                                          ),
+                                    ),
+                                  ),
+                              child: Container(
+                                padding: EdgeInsets.all(isCompact ? 12 : 16),
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(12),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: Colors.black.withOpacity(0.1),
+                                      blurRadius: 4,
+                                      offset: const Offset(0, 2),
+                                    ),
+                                  ],
+                                ),
+                                child: Row(
+                                  children: [
+                                    Container(
+                                      width: isCompact ? 32 : 40,
+                                      height: isCompact ? 32 : 40,
+                                      decoration: BoxDecoration(
+                                        color: const Color(
+                                          0xFF654321,
+                                        ).withOpacity(0.1),
+                                        borderRadius: BorderRadius.circular(8),
                                       ),
+                                      child: Icon(
+                                        Icons.translate,
+                                        color: const Color(0xFF654321),
+                                        size: isCompact ? 16 : 20,
+                                      ),
+                                    ),
+                                    SizedBox(width: isCompact ? 10 : 16),
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            assurini,
+                                            style: TextStyle(
+                                              fontSize: titleSize,
+                                              fontWeight: FontWeight.w600,
+                                              color: const Color(0xFF654321),
+                                            ),
+                                            softWrap: true,
+                                            overflow: TextOverflow.visible,
+                                          ),
+                                          const SizedBox(height: 4),
+                                          Text(
+                                            portugues,
+                                            style: TextStyle(
+                                              fontSize: subtitleSize,
+                                              fontWeight: FontWeight.w400,
+                                              color: const Color(0xFF757575),
+                                            ),
+                                            softWrap: true,
+                                            overflow: TextOverflow.visible,
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                    const SizedBox(width: 8),
+                                    Icon(
+                                      Icons.arrow_forward_ios,
+                                      color: const Color(0xFF9E9E9E),
+                                      size: isCompact ? 14 : 16,
+                                    ),
+                                  ],
                                 ),
                               ),
-                          child: Container(
-                            padding: const EdgeInsets.all(16),
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(12),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: Colors.black.withOpacity(0.1),
-                                  blurRadius: 4,
-                                  offset: const Offset(0, 2),
-                                ),
-                              ],
                             ),
-                            child: Row(
-                              children: [
-                                Container(
-                                  width: 40,
-                                  height: 40,
-                                  decoration: BoxDecoration(
-                                    color: const Color(
-                                      0xFF654321,
-                                    ).withOpacity(0.1),
-                                    borderRadius: BorderRadius.circular(8),
-                                  ),
-                                  child: const Icon(
-                                    Icons.translate,
-                                    color: Color(0xFF654321),
-                                    size: 20,
-                                  ),
-                                ),
-                                const SizedBox(width: 16),
-                                Expanded(
-                                  child: Text(
-                                    palavras[index]['portugues'],
-                                    style: const TextStyle(
-                                      fontSize: 14,
-                                      fontWeight: FontWeight.w500,
-                                      color: Color(0xFF424242),
-                                    ),
-                                  ),
-                                ),
-                                if (portugues.isNotEmpty) ...[
-                                  const SizedBox(width: 8),
-                                  Flexible(
-                                    child: Text(
-                                      portugues,
-                                      textAlign: TextAlign.right,
-                                      style: const TextStyle(
-                                        fontSize: 12,
-                                        color: Color(0xFF757575),
-                                      ),
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                ],
-                                const Icon(
-                                  Icons.arrow_forward_ios,
-                                  color: Color(0xFF9E9E9E),
-                                  size: 16,
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
+                          );
+                        },
                       );
                     },
                   );
